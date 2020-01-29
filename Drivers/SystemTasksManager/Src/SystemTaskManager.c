@@ -27,9 +27,9 @@ static uint8_t rc_rcv[RC_DATA_NUM] = {};
 volatile led_mode_t g_led_mode = lmode_1;
 static volatile unsigned int count_for_rc = 0;
 
-volatile uint8_t sensor_area_rcv[8] = {0,0,0,0,0,0,0,0};
-static uint8_t sensor_area_rcv_data[8] = {0,0,0,0,0,0,0,0};
-static int sensor_area_wait_count = 0;
+volatile uint8_t raspi_control_rcv[8] = {0,0,0,0,0,0,0,0};
+static uint8_t raspi_control_rcv_data[8] = {0,0,0,0,0,0,0,0};
+static int raspi_control_wait_count = 0;
 
 static
 int SY_init(void);
@@ -82,21 +82,21 @@ int main(void){
     SY_doAppTasks();
     //もしメッセージを出すタイミングであれば
     if( g_SY_system_counter % _MESSAGE_INTERVAL_MS < _INTERVAL_MS ){
-#if USE_SENSOR_AREA
-      sensor_area_wait_count++;
-      if(sensor_area_wait_count >= 2){
-	MW_USART3ReceiveMult(8, sensor_area_rcv_data);
-	for(int i=0;i<4;i++){
-	  MW_printf("[%6d]",sensor_area_rcv_data[i*2]+sensor_area_rcv_data[i*2+1]*256);
-	}
-	for(int i=0;i<8;i++){
-	  sensor_area_rcv[i] = sensor_area_rcv_data[i];
-	}
-	sensor_area_wait_count = 0;
+#if USE_RASPI_CONTROL
+      raspi_control_wait_count++;
+      if(raspi_control_wait_count >= 2){
+	      MW_USART3ReceiveMult(8, raspi_control_rcv_data);
+	      for(int i=0;i<4;i++){
+	        MW_printf("[%6d]",raspi_control_rcv_data[i*2]+raspi_control_rcv_data[i*2+1]*256);
+	      }
+	      for(int i=0;i<8;i++){
+	        raspi_control_rcv[i] = raspi_control_rcv_data[i];
+	      }
+	      raspi_control_wait_count = 0;
       }
 #endif
       if( g_SY_system_counter % 1000 == 0){
-	MW_printf("\033[2J");
+	      MW_printf("\033[2J");
       }
       MW_printf("\033[1;1H");//カーソルを(1,1)にセットして
       DD_RCPrint((uint8_t*)g_rc_data);//RCのハンドラを表示します
@@ -198,7 +198,7 @@ int SY_init(void){
   /*UART initialize*/
   MW_USARTInit(USART2ID);
 
-#if USE_SENSOR_AREA
+#if USE_RASPI_CONTROL
   MW_USARTSetBaudRate(USART3ID, 9600);
   MW_USARTInit(USART3ID);
 #endif

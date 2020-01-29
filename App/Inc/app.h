@@ -16,6 +16,7 @@ int appInit(void);
 #define DD_USE_ENCODER2 1
 #define DD_NUM_OF_SV 0
 
+#define USE_RASPI_CONTROL 1
 #define DD_USE_RC 1
 
 #include "DD_RC.h"
