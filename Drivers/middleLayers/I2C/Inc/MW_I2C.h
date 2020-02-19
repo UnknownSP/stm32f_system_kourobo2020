@@ -55,6 +55,7 @@ volatile bool had_completed_rx = true;
    PB11     ------> I2C2_SDA
 */
 int MW_I2CInit(i2cid_t id);
+int MW_I2CDeInit(i2cid_t id);
 
 void MW_SetI2CClockSpeed(i2cid_t id,uint32_t ClockSpeed);
 

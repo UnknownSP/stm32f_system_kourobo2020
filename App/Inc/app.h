@@ -25,56 +25,14 @@ int appInit(void);
 #include "DD_SV.h"
 #include "DD_SS.h"
 
-#define _ENCODER1_RESET_GPIOID GPIOAID
-#define _ENCODER1_RESET_GPIOPIN GPIO_PIN_0
-#define _IS_PRESSED_ENCODER1_RESET() ((MW_GPIORead(_ENCODER1_RESET_GPIOID,_ENCODER1_RESET_GPIOPIN)))
+#define I2C_ODMETRY 0
 
-#define _ENCODER2_RESET_GPIOID GPIOAID
-#define _ENCODER2_RESET_GPIOPIN GPIO_PIN_1
-#define _IS_PRESSED_ENCODER2_RESET() ((MW_GPIORead(_ENCODER2_RESET_GPIOID,_ENCODER2_RESET_GPIOPIN)))
+#define R_F_KUDO_MD 0
+#define R_B_KUDO_MD 1
+#define L_B_KUDO_MD 2
+#define L_F_KUDO_MD 3
 
-#define I2C_ENCODER_1 1
-#define I2C_ENCODER_2 0
-
-#define RIGHT_ENC 0
-#define BACK_ENC 1
-#define LEFT_ENC 2
-#define FRONT_ENC 3
-
-#define ZENEBA_MD 6
-
-#define R_F_KUDO_MD 2
-#define L_B_KUDO_MD 3
 #define CENTRAL_THRESHOLD 4
-
-#define VOLTAGE 12.0
-#define VOLTAGE_ADJUST (12.0/VOLTAGE)
-
-#define R_F_KUDO_ADJUST 1.0 //右前ステアの駆動モータ調整倍率
-#define L_B_KUDO_ADJUST 1.0 //左後ろステア駆動モータ調整倍率
-
-#define R_F_DEG_INIT_LOW_DUTY 900.0
-#define L_B_DEG_INIT_LOW_DUTY 900.0
-
-#define R_F_DEG_LOW_DUTY 950.0
-#define L_B_DEG_LOW_DUTY 900.0
-
-#define R_F_DEG_DUTY_ADJUST 0.92
-#define L_B_DEG_DUTY_ADJUST 1.0
-
-#define R_F_DEG_ADJUST 180
-#define L_B_DEG_ADJUST 175
-
-#define ARM_UP_MAXDUTY 5000
-#define ARM_SPIN_MAXDUTY 3000 //gyaku
-#define ZENEBA_MAXDUTY 5000
-
-#define STRAIGHT_MAX_DUTY 8000
-
-#define SUS_LOW_DUTY 2000.0
-
-#define ARM_UP_MD 4
-#define ARM_SPIN_MD 5 
 
 #define AB_UPMECHA_ON (1<<3) //0b00001000
 #define AB_CENTER_ON (1<<2) //0b00000100
@@ -135,14 +93,33 @@ int appInit(void);
 
 /****以下追加分*****************/
 
-#define MOVE_SAMPLE_VALUE 20 //←のポジションデータで自己位置推定
-#define MOVE_ACCEPTABLE_WIDTH 5.0 //←*2の幅が移動時の許容
+#define MOVE_STOP_RANGE 5
+#define SPIN_STOP_RANGE 100 // 1.0
+#define ACCELARATING_COEFF 20
+
+#define DUTY_MAX_VALUE 4000
+#define DUTY_MIN_VALUE 1000
+#define DUTY_MAX_DISTANCE 1000
+#define DUTY_MIN_DISTANCE 10
+#define STRAIGHT_DUTY_GET(x) ((int)((((double)(DUTY_MAX_VALUE-DUTY_MIN_VALUE)/(double)(-DUTY_MAX_DISTANCE))*((double)(DUTY_MAX_DISTANCE-x)))+DUTY_MAX_VALUE))
+
+#define XY_TO_INPUT_MAX_VALUE 100
+
+#define INPUT_MAX_DUTY_COMPARE_COEFF 70
+
+#define SPIN_INPUT_MAX_VALUE 100
+#define SPIN_INPUT_MIN_VALUE 15
+#define SPIN_INPUT_MAX_DEGREE 9000 // 90.0
+#define SPIN_INPUT_MIN_DEGREE 100  // 1.0
+#define SPIN_DUTY_GET(x) ((int)((((double)(SPIN_INPUT_MAX_VALUE-SPIN_INPUT_MIN_VALUE)/(double)(-SPIN_INPUT_MAX_DEGREE))*((double)(SPIN_INPUT_MAX_DEGREE-x)))+SPIN_INPUT_MAX_VALUE))
 
 typedef enum{
-  GET_ENCODER_VALUE = 0,
-  RESET_ENCODER_VALUE = 1,
-  GET_DIFF = 2,
-}EncoderOperation_t;
+  PLUS_ACCELERATING = 0,
+  CONSTANT_SPEED = 1,
+  MINUS_ACCELERATING = 2,
+  ARRIVED_TARGET = 3,
+  OVER_SHOOT = 4,
+}MovingSituation_t;
 
 typedef enum{
   MANUAL_SUSPENSION = 0,
@@ -173,16 +150,6 @@ typedef enum{
   PLUS_Y = 2,
   MINUS_Y = 3,
 }MovingDestination_t;
-
-typedef enum{
-  PLUS_ACCELERATING = 0,
-  CONSTANT_SPEED = 1,
-  MINUS_ACCELERATING = 2,
-  ARRIVED_TARGET = 3,
-  SPIN_STEERING = 4,
-  SPIN_END = 5,
-  OVER_SHOOT = 6,
-}MovingSituation_t;
 
 typedef enum{
   TURN_NOW = 0,

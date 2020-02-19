@@ -59,7 +59,7 @@ int DD_receive2SS(void){
   case D_STYP_ENCODER:
   case D_STYP_ODMETRY:
     encoder_wait[temp_data]++;
-    if(phase == TRANSMIT_PHASE || phase == RECEIVE_PHASE){
+    if(phase == TRANSMIT_PHASE ){//|| phase == RECEIVE_PHASE){
       if(encoder_wait[temp_data] >= 2){
 	      encoder_wait[temp_data] = 0;
 	      ret = Read_ENCODER(&g_ss_h[temp_data]);
@@ -147,7 +147,7 @@ void DD_SSHandPrint(DD_SSHand_t *dmd){
       w *= -1;
     }
 
-    MW_printf("\nposition[x][y][w] : [%10d][%10d][%6d]\n",x,y,w);  
+    //MW_printf("\nposition[x][y][w] : [%10d][%10d][%6d]\n",x,y,w);  
     for(int i=0;i<dmd->data_size;i++){ 
       MW_printf("[%4d]",dmd->data[i]); 
     }

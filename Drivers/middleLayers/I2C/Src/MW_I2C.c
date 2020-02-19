@@ -52,6 +52,13 @@ int MW_I2CInit(i2cid_t id){
   return EXIT_SUCCESS;
 }
 
+int MW_I2CDeInit(i2cid_t id){
+  if( HAL_I2C_DeInit(i2cid[(uint32_t)id]) != HAL_OK ){
+    return EXIT_FAILURE;
+  }
+  return EXIT_SUCCESS;
+}
+
 int32_t MW_I2C1Transmit(uint8_t address, const uint8_t *data, uint16_t size){
   if( HAL_I2C_Master_Transmit(&hi2c1, address << 1, (uint8_t*)data, size, 10) != HAL_OK ){
     return -1;

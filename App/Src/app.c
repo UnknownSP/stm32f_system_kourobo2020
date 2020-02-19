@@ -29,11 +29,22 @@ static char *testmode_name[] = {
   "STOP_EVERYTHING",
 };
 /********/
-/*suspensionSystem*/
+static
+int duty_adjust(int duty, int omni_num);
+static
+int32_t absolute_distance(int32_t position[2]);
+static
+int auto_omni_suspension(int x, int y, int w, int max_duty);
+static
+MovingSituation_t go_to_target(int32_t target_position[3], int32_t now_position[3]);
+static
+int odmetry_position(int32_t position[3], bool adjust_flag[3], int32_t adjust_value[3], bool reset);
 static
 int manual_omni_suspension(void);
-static int duty_check(void);
-/*ABSystem*/
+static
+int spin_xy_point(int32_t xy_point[2], double degree);
+static 
+int duty_check(void);
 static 
 int ABSystem(void);
 static
@@ -62,7 +73,12 @@ int appTask(void){
 
 	static unsigned int target_count = 0;
 	static bool circle_flag = false, cross_flag = false;
-	static int target_duty,duty;
+	static int target_duty=0,duty;
+
+	int adjust[3] = {};
+	bool adjust_flag[3] = {false, false, false};
+	int32_t now_position[3] = {};
+	int32_t target_position[3] = {};
 
 	if(!__RC_ISPRESSED_CIRCLE(g_rc_data)) circle_flag = true;
 	if(!__RC_ISPRESSED_CROSS(g_rc_data)) cross_flag = true;
@@ -76,12 +92,42 @@ int appTask(void){
 		cross_flag = false;
 	}
 
-	target_duty = (int)((double)target_count*(200.0/3.0));
+	//target_duty = (int)((double)target_count*(200.0/3.0));
+
+	odmetry_position(now_position, adjust_flag, adjust, false);
+
+	if(__RC_ISPRESSED_CIRCLE(g_rc_data)){
+		target_position[0] = 3000;
+		target_position[1] = 0;
+		target_position[2] = 18000;
+	}
+	if(__RC_ISPRESSED_CROSS(g_rc_data)){
+		target_position[0] = 1500;
+		target_position[1] = -300;
+		target_position[2] = 9000;
+	}
+	if(__RC_ISPRESSED_SQARE(g_rc_data)){
+		target_position[0] = -3000;
+		target_position[1] = 0;
+		target_position[2] = 18000;
+	}
+	if(__RC_ISPRESSED_TRIANGLE(g_rc_data)){
+		target_position[0] = -3000;
+		target_position[1] = 800;
+		target_position[2] = 18000;
+	}
+	if(__RC_ISPRESSED_L1(g_rc_data)){
+		target_position[0] = 0;
+		target_position[1] = 0;
+		target_position[2] = 0;
+	}
+
+	go_to_target(target_position,now_position);
 
 	//manual_omni_suspension();
 	//duty_check();
 
-	if( g_SY_system_counter % _MESSAGE_INTERVAL_MS < _INTERVAL_MS ){
+	/*if( g_SY_system_counter % _MESSAGE_INTERVAL_MS < _INTERVAL_MS ){
 		encoder_count = DD_encoder1Get_int32();
 		MW_printf("encoder_count:[%d]  time:[%d]  target:[%d]\n",encoder_count,g_SY_system_counter-recent_system_count,target_duty);
 		if(abs(encoder_count) > target_duty){
@@ -107,13 +153,263 @@ int appTask(void){
 		DD_encoder1reset();
 		encoder_count = 0;
 		recent_system_count = g_SY_system_counter;
-	}
+	}*/
 
 	//if( g_SY_system_counter % _MESSAGE_INTERVAL_MS < _INTERVAL_MS ){
 	//	MW_printf("encoder_count:[%d]  time:[%d]\n",encoder_count,g_SY_system_counter-recent_system_count);
 	//}
 
 	return EXIT_SUCCESS;
+}
+
+static
+MovingSituation_t go_to_target(int32_t target_position[3], int32_t now_position[3]){
+	MovingSituation_t return_situation;
+	static int32_t re_now_position[2] = {};
+	int32_t distance;
+	int input_duty[3] = {};
+	int input_max_duty_cal[2] = {};
+	int input_max_duty = 0;
+	int i;
+	static int recent_input_max_duty = 0;
+	static int now_degree = 0, target_degree = 0;
+	static int abs_degree_to_target = 0;
+	int turn_destination_coeff = 1;
+
+	for(i=0; i<2; i++){
+		re_now_position[i] = now_position[i] - target_position[i]; //目標を(0,0)とした時の今のポジションを計算
+	}
+
+	spin_xy_point(re_now_position, (double)(now_position[2])/100.0); //今の角度に従って目標座標(角度)を調整
+
+	// 0〜360 に変換
+	if(now_position[2] < 0){
+		now_degree = 18000 + (18000 + now_position[2]);
+	}else{
+		now_degree = now_position[2];
+	}
+	if(target_position[2] < 0){
+		target_degree = 18000 + (18000 + target_position[2]);
+	}else{
+		target_degree = target_position[2];
+	}
+
+	if(abs(target_degree - now_degree) > 18000){
+		if(target_degree-now_degree > 0){
+			abs_degree_to_target = 36000 - target_degree + now_degree;
+			turn_destination_coeff = -1;
+		}else{
+			abs_degree_to_target = 36000 - now_degree + target_degree;
+			turn_destination_coeff = 1;
+		}
+	}else{
+		if(target_degree-now_degree > 0){
+			turn_destination_coeff = 1;
+		}else{
+			turn_destination_coeff = -1;
+		}
+		abs_degree_to_target = abs(target_degree-now_degree);
+	}
+
+	if(abs_degree_to_target >= SPIN_INPUT_MAX_DEGREE){
+		input_duty[2] = SPIN_INPUT_MAX_VALUE;
+	}else if(abs_degree_to_target < SPIN_STOP_RANGE){
+		input_duty[2] = 0;
+	}else{
+		input_duty[2] = SPIN_DUTY_GET(abs_degree_to_target);
+	}
+	input_duty[2] *= turn_destination_coeff;
+
+	distance = absolute_distance(re_now_position); //距離を計算(常に正)
+	if(distance >= DUTY_MAX_DISTANCE){
+		input_max_duty_cal[0] = DUTY_MAX_VALUE;
+	}else{
+		input_max_duty_cal[0] = STRAIGHT_DUTY_GET(distance);
+	}
+	input_max_duty_cal[1] = abs(input_duty[2])*INPUT_MAX_DUTY_COMPARE_COEFF;
+
+	//x,y入力デューティを最大値にあわせて調整
+	if(distance < MOVE_STOP_RANGE){
+		input_duty[0] = 0;
+		input_duty[1] = 0;
+		input_max_duty_cal[0] = 0;
+	}else if(abs(re_now_position[0]) >= abs(re_now_position[1])){
+		for(i=0; i<2; i++){
+			input_duty[i] = -(int)((double)re_now_position[i] * fabs(((double)XY_TO_INPUT_MAX_VALUE/(double)re_now_position[0])));
+		}
+	}else{
+		for(i=0; i<2; i++){
+			input_duty[i] = -(int)((double)re_now_position[i] * fabs(((double)XY_TO_INPUT_MAX_VALUE/(double)re_now_position[1])));
+		}
+	}
+
+	if(input_max_duty_cal[0] > input_max_duty_cal[1]){
+		input_max_duty = input_max_duty_cal[0];
+	}else{
+		input_max_duty = input_max_duty_cal[1];
+	}
+	if(input_max_duty-recent_input_max_duty > ACCELARATING_COEFF){
+		input_max_duty = recent_input_max_duty + ACCELARATING_COEFF;
+	}
+	recent_input_max_duty = input_max_duty;
+	
+
+	auto_omni_suspension(input_duty[0],input_duty[1],input_duty[2],input_max_duty);
+
+	return return_situation;
+}
+
+static
+int32_t absolute_distance(int32_t position[2]){
+	return (int)(sqrt(position[0]*position[0]+position[1]*position[1]));
+}
+
+static
+int spin_xy_point(int32_t xy_point[2], double degree /*普通の角度180.0*/){
+	int32_t recent_point[2];
+	double rad;
+
+	rad = degree * M_PI/180.0;
+	recent_point[0] = xy_point[0];
+	recent_point[1] = xy_point[1];
+
+	xy_point[0] = (int)((double)recent_point[0]*cos(rad) - (double)recent_point[1]*sin(rad));
+	xy_point[1] = (int)((double)recent_point[0]*sin(rad) + (double)recent_point[1]*cos(rad));
+
+	return 0;
+}
+
+static
+int odmetry_position(int32_t position[3], bool adjust_flag[3], int32_t adjust_value[3], bool reset){
+
+	static int32_t adjust[3] = {};
+	int i;
+
+#if DD_NUM_OF_SS
+	position[0] = g_ss_h[I2C_ODMETRY].data[2] + (g_ss_h[I2C_ODMETRY].data[3])*256 + ( (0b01111111)&(g_ss_h[I2C_ODMETRY].data[4]) ) *65536;
+    if(( ((0b10000000)&(g_ss_h[I2C_ODMETRY].data[4]))>>7 ) == 1){
+      position[0] *= -1;
+    }
+    position[1] = g_ss_h[I2C_ODMETRY].data[5] + (g_ss_h[I2C_ODMETRY].data[6])*256 + ( (0b01111111)&(g_ss_h[I2C_ODMETRY].data[7]) ) *65536;
+    if(( ((0b10000000)&(g_ss_h[I2C_ODMETRY].data[7]))>>7 ) == 1){
+      position[1] *= -1;
+    }
+    position[2] = g_ss_h[I2C_ODMETRY].data[0] + ( (0b01111111)&(g_ss_h[I2C_ODMETRY].data[1]) ) * 256;
+    if(( ((0b10000000)&(g_ss_h[I2C_ODMETRY].data[1]))>>7 ) == 1){
+      position[2] *= -1;
+    }
+	for(i=0;i<3;i++){
+		position[i] -= adjust[i];
+	}
+#endif
+
+	if(reset){
+		for(i=0; i<3; i++){
+			position[i] = 0;
+			adjust[i] = position[i];
+		}
+		return 0;
+	}
+
+	for(i=0; i<3; i++){
+		if(adjust_flag[i]){
+			position[i] = adjust_value[i];
+			adjust[i] = position[i] - adjust_value[i];
+		}
+	}
+
+	if( g_SY_system_counter % _MESSAGE_INTERVAL_MS < _INTERVAL_MS ){
+		MW_printf("\nposition[x][y][w] : [%10d][%10d][%4d.%2d]\n",position[0],position[1],position[2]/100,abs(position[2]%100));
+	}
+
+	return 0;
+}
+
+static
+int auto_omni_suspension(int x, int y, int w, int max_duty){
+	const int cal_array[4][3] = {
+		{ 100, -100, 100},
+		{-100, -100, 100},
+		{-100,  100, 100},
+		{ 100,  100, 100},
+	};
+	int temp_array[4];
+	int cal_duty[4];
+	int in_array[3];
+	int max_cal_value = 0;
+	double coefficient;
+	int i=0,j=0;
+
+	in_array[0] = x;
+	in_array[1] = y;
+	in_array[2] = w;
+
+	for(i=0; i<4; i++){
+		temp_array[i] = 0;
+		for(j=0; j<3; j++){
+			temp_array[i] += in_array[j]*cal_array[i][j];
+		}
+	}
+
+	for(i=0; i<4; i++){
+		if(max_cal_value <= abs(temp_array[i])){
+			max_cal_value = abs(temp_array[i]);
+		}
+	}
+
+	coefficient = (double)max_duty/(double)max_cal_value;
+
+	for(i=0; i<4; i++){
+		cal_duty[i] = (int)( (double)temp_array[i] * coefficient );
+	}
+
+	for(i=0; i<4; i++){
+		g_md_h[i].duty = abs(cal_duty[i]);
+		if(cal_duty[i] < 0){
+			g_md_h[i].mode = D_MMOD_BACKWARD;
+		}else if(cal_duty[i] > 0){
+			g_md_h[i].mode = D_MMOD_FORWARD;
+		}else{
+			g_md_h[i].mode = D_MMOD_BRAKE;
+		}
+	}
+
+	return EXIT_SUCCESS;
+}
+
+static
+int duty_adjust(int duty, int omni_num){
+	const double coeff_forward[4][2] = {
+		{0.8961426939,416.180},
+		{0.8791354512,399.575},
+		{0.8864499033,400.469},
+		{0.9043946380,378.819},
+	};
+	const double coeff_reverse[4][2] = {
+		{0.8939177467,397.066},
+		{0.8748625036,336.814},
+		{0.8686693640,365.415},
+		{0.8929280395,337.306},
+	};
+	double cal_duty;
+
+	if(duty > 0){
+		cal_duty = ((double)duty * coeff_forward[omni_num][0]) + coeff_forward[omni_num][1];
+	}else if(duty < 0){
+		cal_duty = ((double)duty * coeff_reverse[omni_num][0]) - coeff_reverse[omni_num][1];
+	}else{
+		cal_duty = 0.0;
+	}
+
+	if(fabs(cal_duty) >= 9999.0){
+		if(cal_duty < 0.0){
+			cal_duty = -9999.0;
+		}else if(cal_duty > 0.0){
+			cal_duty = 9999.0;
+		}
+	}
+
+	return (int)cal_duty;
 }
 
 static
@@ -139,6 +435,7 @@ int manual_omni_suspension(void){
 			temp_array[i] += in_array[j]*cal_array[i][j];
 		}
 		cal_duty[i] = temp_array[i] * 50;
+		cal_duty[i] = duty_adjust(cal_duty[i],i);
 		g_md_h[i].duty = abs(cal_duty[i]);
 		if(cal_duty[i] < 0){
 			g_md_h[i].mode = D_MMOD_BACKWARD;
