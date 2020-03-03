@@ -189,6 +189,10 @@ void DMA1_Channel3_IRQHandler(void){
   HAL_DMA_IRQHandler(huart3.hdmarx);
 }
 
+void DMA1_Channel2_IRQHandler(void){
+  HAL_DMA_IRQHandler(huart3.hdmatx);
+}
+
 /**
   * @brief  This function handles USARTx interrupt request.  
   * @param  None

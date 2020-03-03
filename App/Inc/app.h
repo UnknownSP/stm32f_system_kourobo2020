@@ -32,6 +32,9 @@ int appInit(void);
 #define L_B_KUDO_MD 2
 #define L_F_KUDO_MD 3
 
+#define ARM_SPIN_MD 4
+#define GET_SKMT_MD 5
+
 #define CENTRAL_THRESHOLD 4
 
 #define AB_UPMECHA_ON (1<<3) //0b00001000
@@ -93,6 +96,8 @@ int appInit(void);
 
 /****以下追加分*****************/
 
+#define ARM_SPIN_MAX_DUTY 1500
+
 #define MOVE_STOP_RANGE 5
 #define SPIN_STOP_RANGE 100 // 1.0
 #define ACCELARATING_COEFF 20
@@ -113,6 +118,14 @@ int appInit(void);
 #define SPIN_INPUT_MIN_DEGREE 100  // 1.0
 #define SPIN_DUTY_GET(x) ((int)((((double)(SPIN_INPUT_MAX_VALUE-SPIN_INPUT_MIN_VALUE)/(double)(-SPIN_INPUT_MAX_DEGREE))*((double)(SPIN_INPUT_MAX_DEGREE-x)))+SPIN_INPUT_MAX_VALUE))
 
+#define ARM_MAX_VALUE 1500
+#define ARM_MIN_VALUE 1000
+#define ARM_MAX_DEGREE 1000
+#define ARM_MIN_DEGREE 20
+#define ARM_DUTY_GET(x) ((int)((((double)(ARM_MAX_VALUE-ARM_MIN_VALUE)/(double)(-ARM_MAX_DEGREE))*((double)(ARM_MAX_DEGREE-x)))+ARM_MAX_VALUE))
+
+#define ARM_STOP_RANGE 100
+
 typedef enum{
   PLUS_ACCELERATING = 0,
   CONSTANT_SPEED = 1,
@@ -120,6 +133,28 @@ typedef enum{
   ARRIVED_TARGET = 3,
   OVER_SHOOT = 4,
 }MovingSituation_t;
+
+typedef enum{
+  MOVING_ARM = 0,
+  SET_TARGET = 1,
+  RESET_ARM_FUNC = 2,
+}Arm_MovingSituation_t;
+
+typedef enum{
+  FALL_MECHA = 0,
+  NEAR_ROBOT = 1,
+  UNE_150 = 2,
+  UNE_200 = 3,
+  UNE_250 = 4,
+  NEAR_UNE = 5,
+}Arm_MovingTarget_t;
+
+#define FALL_MECHA_ENC (-3072)
+#define NEAR_ROBOT_ENC (-1024)
+#define UNE_150_ENC (-1500)
+#define UNE_200_ENC (-2000)
+#define UNE_250_ENC (-2500)
+#define NEAR_UNE_ENC (-1200)
 
 typedef enum{
   MANUAL_SUSPENSION = 0,

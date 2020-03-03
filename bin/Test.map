@@ -536,7 +536,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/deviceDefinition.o
  .debug_macro   0x0000000000000000       0x40 obj/deviceDefinition.o
  .debug_macro   0x0000000000000000       0x10 obj/deviceDefinition.o
- .debug_macro   0x0000000000000000      0x17e obj/deviceDefinition.o
+ .debug_macro   0x0000000000000000      0x1de obj/deviceDefinition.o
  .debug_macro   0x0000000000000000      0x1b1 obj/deviceDefinition.o
  .debug_macro   0x0000000000000000       0x2e obj/deviceDefinition.o
  .debug_macro   0x0000000000000000       0x22 obj/deviceDefinition.o
@@ -985,9 +985,9 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x46 obj/trapezoid_ctrl.o
  .debug_macro   0x0000000000000000       0x40 obj/trapezoid_ctrl.o
  .debug_macro   0x0000000000000000       0x10 obj/trapezoid_ctrl.o
- .debug_macro   0x0000000000000000      0x17e obj/trapezoid_ctrl.o
+ .debug_macro   0x0000000000000000      0x1de obj/trapezoid_ctrl.o
  .debug_line    0x0000000000000000      0x503 obj/trapezoid_ctrl.o
- .debug_str     0x0000000000000000     0x7bbf obj/trapezoid_ctrl.o
+ .debug_str     0x0000000000000000     0x7d58 obj/trapezoid_ctrl.o
  .comment       0x0000000000000000       0x80 obj/trapezoid_ctrl.o
  .debug_frame   0x0000000000000000       0x2c obj/trapezoid_ctrl.o
  .ARM.attributes
@@ -8973,7 +8973,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/DD_AB.o
  .debug_macro   0x0000000000000000       0x46 obj/DD_AB.o
  .debug_macro   0x0000000000000000       0x1c obj/DD_AB.o
- .debug_macro   0x0000000000000000      0x17e obj/DD_AB.o
+ .debug_macro   0x0000000000000000      0x1de obj/DD_AB.o
  .debug_macro   0x0000000000000000       0x40 obj/DD_AB.o
  .debug_macro   0x0000000000000000      0x1b1 obj/DD_AB.o
  .debug_macro   0x0000000000000000       0x2e obj/DD_AB.o
@@ -9189,7 +9189,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/DD_ENCODER.o
  .debug_macro   0x0000000000000000       0x46 obj/DD_ENCODER.o
  .debug_macro   0x0000000000000000       0x1c obj/DD_ENCODER.o
- .debug_macro   0x0000000000000000      0x17e obj/DD_ENCODER.o
+ .debug_macro   0x0000000000000000      0x1de obj/DD_ENCODER.o
  .debug_macro   0x0000000000000000       0x40 obj/DD_ENCODER.o
  .debug_macro   0x0000000000000000       0x16 obj/DD_ENCODER.o
  .group         0x0000000000000000        0xc obj/DD_Gene.o
@@ -9274,7 +9274,7 @@ Discarded input sections
                 0x0000000000000000       0x3c obj/DD_Gene.o
  .rodata.DD_I2C1Receive.str1.4
                 0x0000000000000000       0x37 obj/DD_Gene.o
- .rodata.__FUNCTION__.8099
+ .rodata.__FUNCTION__.8112
                 0x0000000000000000        0xf obj/DD_Gene.o
  .debug_macro   0x0000000000000000      0xab4 obj/DD_Gene.o
  .debug_macro   0x0000000000000000       0x22 obj/DD_Gene.o
@@ -9317,7 +9317,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/DD_Gene.o
  .debug_macro   0x0000000000000000       0x40 obj/DD_Gene.o
  .debug_macro   0x0000000000000000       0x10 obj/DD_Gene.o
- .debug_macro   0x0000000000000000      0x17e obj/DD_Gene.o
+ .debug_macro   0x0000000000000000      0x1de obj/DD_Gene.o
  .debug_macro   0x0000000000000000      0x1b1 obj/DD_Gene.o
  .debug_macro   0x0000000000000000       0x2e obj/DD_Gene.o
  .debug_macro   0x0000000000000000       0x22 obj/DD_Gene.o
@@ -9451,7 +9451,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/DD_LD.o
  .debug_macro   0x0000000000000000       0x46 obj/DD_LD.o
  .debug_macro   0x0000000000000000       0x1c obj/DD_LD.o
- .debug_macro   0x0000000000000000      0x17e obj/DD_LD.o
+ .debug_macro   0x0000000000000000      0x1de obj/DD_LD.o
  .debug_macro   0x0000000000000000       0x40 obj/DD_LD.o
  .debug_macro   0x0000000000000000      0x1b1 obj/DD_LD.o
  .debug_macro   0x0000000000000000       0x2e obj/DD_LD.o
@@ -9513,7 +9513,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 obj/DD_LD.o
  .debug_macro   0x0000000000000000       0x29 obj/DD_LD.o
  .debug_line    0x0000000000000000      0xb10 obj/DD_LD.o
- .debug_str     0x0000000000000000    0x674da obj/DD_LD.o
+ .debug_str     0x0000000000000000    0x67673 obj/DD_LD.o
  .comment       0x0000000000000000       0x80 obj/DD_LD.o
  .debug_frame   0x0000000000000000       0x40 obj/DD_LD.o
  .ARM.attributes
@@ -9606,7 +9606,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/DD_MD.o
  .debug_macro   0x0000000000000000       0x46 obj/DD_MD.o
  .debug_macro   0x0000000000000000       0x1c obj/DD_MD.o
- .debug_macro   0x0000000000000000      0x17e obj/DD_MD.o
+ .debug_macro   0x0000000000000000      0x1de obj/DD_MD.o
  .debug_macro   0x0000000000000000       0x40 obj/DD_MD.o
  .debug_macro   0x0000000000000000      0x1b1 obj/DD_MD.o
  .debug_macro   0x0000000000000000       0x2e obj/DD_MD.o
@@ -9902,7 +9902,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/DD_SS.o
  .debug_macro   0x0000000000000000       0x46 obj/DD_SS.o
  .debug_macro   0x0000000000000000       0x1c obj/DD_SS.o
- .debug_macro   0x0000000000000000      0x17e obj/DD_SS.o
+ .debug_macro   0x0000000000000000      0x1de obj/DD_SS.o
  .debug_macro   0x0000000000000000       0x40 obj/DD_SS.o
  .debug_macro   0x0000000000000000      0x1b1 obj/DD_SS.o
  .debug_macro   0x0000000000000000       0x2e obj/DD_SS.o
@@ -10053,7 +10053,7 @@ Discarded input sections
                 0x0000000000000000       0x1c obj/DD_SV.o
  .rodata.SV_print.str1.4
                 0x0000000000000000        0xc obj/DD_SV.o
- .rodata.__FUNCTION__.8062
+ .rodata.__FUNCTION__.8075
                 0x0000000000000000        0xa obj/DD_SV.o
  .debug_info    0x0000000000000000      0xe4c obj/DD_SV.o
  .debug_abbrev  0x0000000000000000      0x29b obj/DD_SV.o
@@ -10089,7 +10089,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/DD_SV.o
  .debug_macro   0x0000000000000000       0x46 obj/DD_SV.o
  .debug_macro   0x0000000000000000       0x1c obj/DD_SV.o
- .debug_macro   0x0000000000000000      0x17e obj/DD_SV.o
+ .debug_macro   0x0000000000000000      0x1de obj/DD_SV.o
  .debug_macro   0x0000000000000000       0x40 obj/DD_SV.o
  .debug_macro   0x0000000000000000      0x1b1 obj/DD_SV.o
  .debug_macro   0x0000000000000000       0x2e obj/DD_SV.o
@@ -10136,7 +10136,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x256 obj/DD_SV.o
  .debug_macro   0x0000000000000000       0x7c obj/DD_SV.o
  .debug_line    0x0000000000000000      0xb60 obj/DD_SV.o
- .debug_str     0x0000000000000000    0x673ac obj/DD_SV.o
+ .debug_str     0x0000000000000000    0x67545 obj/DD_SV.o
  .comment       0x0000000000000000       0x80 obj/DD_SV.o
  .debug_frame   0x0000000000000000       0xa0 obj/DD_SV.o
  .ARM.attributes
@@ -10302,7 +10302,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 obj/SystemTaskManager.o
  .debug_macro   0x0000000000000000       0x10 obj/SystemTaskManager.o
  .debug_macro   0x0000000000000000       0x46 obj/SystemTaskManager.o
- .debug_macro   0x0000000000000000      0x17e obj/SystemTaskManager.o
+ .debug_macro   0x0000000000000000      0x1de obj/SystemTaskManager.o
  .debug_macro   0x0000000000000000       0x40 obj/SystemTaskManager.o
  .debug_macro   0x0000000000000000       0x10 obj/SystemTaskManager.o
  .debug_macro   0x0000000000000000       0x16 obj/SystemTaskManager.o
@@ -10506,7 +10506,7 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x0000000008000110     0x6e78
+.text           0x0000000008000110     0x6f48
                 0x0000000008000110                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000110       0x40 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
@@ -10556,811 +10556,814 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7
  *(.text*)
  .text.auto_omni_suspension
                 0x0000000008000a78      0x144 obj/app.o
- .text.odmetry_position
-                0x0000000008000bbc      0x114 obj/app.o
+ *fill*         0x0000000008000bbc        0x4 
  .text.spin_xy_point
-                0x0000000008000cd0       0xcc obj/app.o
+                0x0000000008000bc0       0xcc obj/app.o
  .text.absolute_distance
-                0x0000000008000d9c       0x1c obj/app.o
+                0x0000000008000c8c       0x1c obj/app.o
  .text.go_to_target
-                0x0000000008000db8      0x250 obj/app.o
- .text.appInit  0x0000000008001008        0xa obj/app.o
-                0x0000000008001008                appInit
- *fill*         0x0000000008001012        0x2 
- .text.appTask  0x0000000008001014      0x12c obj/app.o
-                0x0000000008001014                appTask
+                0x0000000008000ca8      0x260 obj/app.o
+ .text.odmetry_position
+                0x0000000008000f08      0x11c obj/app.o
+ .text.appInit  0x0000000008001024        0xa obj/app.o
+                0x0000000008001024                appInit
+ *fill*         0x000000000800102e        0x2 
+ .text.appTask  0x0000000008001030      0x194 obj/app.o
+                0x0000000008001030                appTask
  .text.assert_failed
-                0x0000000008001140        0x2 obj/assert.o
-                0x0000000008001140                assert_failed
- *fill*         0x0000000008001142        0x2 
+                0x00000000080011c4        0x2 obj/assert.o
+                0x00000000080011c4                assert_failed
+ *fill*         0x00000000080011c6        0x2 
  .text.reloadDefault
-                0x0000000008001144       0x18 obj/constManager.o
- .text.load     0x000000000800115c       0x40 obj/constManager.o
- .text.ad_init  0x000000000800119c        0xc obj/constManager.o
-                0x000000000800119c                ad_init
+                0x00000000080011c8       0x18 obj/constManager.o
+ .text.load     0x00000000080011e0       0x40 obj/constManager.o
+ .text.ad_init  0x0000000008001220        0xc obj/constManager.o
+                0x0000000008001220                ad_init
  .text.HAL_MspInit
-                0x00000000080011a8       0x7c obj/msp.o
-                0x00000000080011a8                HAL_MspInit
+                0x000000000800122c       0x7c obj/msp.o
+                0x000000000800122c                HAL_MspInit
  .text.HAL_I2C_MspInit
-                0x0000000008001224      0x1a4 obj/msp.o
-                0x0000000008001224                HAL_I2C_MspInit
+                0x00000000080012a8      0x1a4 obj/msp.o
+                0x00000000080012a8                HAL_I2C_MspInit
  .text.HAL_TIM_Encoder_MspInit
-                0x00000000080013c8       0x8c obj/msp.o
-                0x00000000080013c8                HAL_TIM_Encoder_MspInit
+                0x000000000800144c       0x8c obj/msp.o
+                0x000000000800144c                HAL_TIM_Encoder_MspInit
  .text.HAL_UART_MspInit
-                0x0000000008001454      0x1fc obj/msp.o
-                0x0000000008001454                HAL_UART_MspInit
+                0x00000000080014d8      0x234 obj/msp.o
+                0x00000000080014d8                HAL_UART_MspInit
  .text.NMI_Handler
-                0x0000000008001650        0x2 obj/stm32f1xx_it.o
-                0x0000000008001650                NMI_Handler
+                0x000000000800170c        0x2 obj/stm32f1xx_it.o
+                0x000000000800170c                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008001652        0x2 obj/stm32f1xx_it.o
-                0x0000000008001652                HardFault_Handler
+                0x000000000800170e        0x2 obj/stm32f1xx_it.o
+                0x000000000800170e                HardFault_Handler
  .text.MemManage_Handler
-                0x0000000008001654        0x2 obj/stm32f1xx_it.o
-                0x0000000008001654                MemManage_Handler
+                0x0000000008001710        0x2 obj/stm32f1xx_it.o
+                0x0000000008001710                MemManage_Handler
  .text.BusFault_Handler
-                0x0000000008001656        0x2 obj/stm32f1xx_it.o
-                0x0000000008001656                BusFault_Handler
+                0x0000000008001712        0x2 obj/stm32f1xx_it.o
+                0x0000000008001712                BusFault_Handler
  .text.UsageFault_Handler
-                0x0000000008001658        0x2 obj/stm32f1xx_it.o
-                0x0000000008001658                UsageFault_Handler
+                0x0000000008001714        0x2 obj/stm32f1xx_it.o
+                0x0000000008001714                UsageFault_Handler
  .text.SVC_Handler
-                0x000000000800165a        0x2 obj/stm32f1xx_it.o
-                0x000000000800165a                SVC_Handler
+                0x0000000008001716        0x2 obj/stm32f1xx_it.o
+                0x0000000008001716                SVC_Handler
  .text.DebugMon_Handler
-                0x000000000800165c        0x2 obj/stm32f1xx_it.o
-                0x000000000800165c                DebugMon_Handler
+                0x0000000008001718        0x2 obj/stm32f1xx_it.o
+                0x0000000008001718                DebugMon_Handler
  .text.PendSV_Handler
-                0x000000000800165e        0x2 obj/stm32f1xx_it.o
-                0x000000000800165e                PendSV_Handler
+                0x000000000800171a        0x2 obj/stm32f1xx_it.o
+                0x000000000800171a                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008001660       0x18 obj/stm32f1xx_it.o
-                0x0000000008001660                SysTick_Handler
+                0x000000000800171c       0x18 obj/stm32f1xx_it.o
+                0x000000000800171c                SysTick_Handler
  .text.DMA1_Channel7_IRQHandler
-                0x0000000008001678       0x10 obj/stm32f1xx_it.o
-                0x0000000008001678                DMA1_Channel7_IRQHandler
+                0x0000000008001734       0x10 obj/stm32f1xx_it.o
+                0x0000000008001734                DMA1_Channel7_IRQHandler
  .text.DMA1_Channel3_IRQHandler
-                0x0000000008001688       0x10 obj/stm32f1xx_it.o
-                0x0000000008001688                DMA1_Channel3_IRQHandler
+                0x0000000008001744       0x10 obj/stm32f1xx_it.o
+                0x0000000008001744                DMA1_Channel3_IRQHandler
+ .text.DMA1_Channel2_IRQHandler
+                0x0000000008001754       0x10 obj/stm32f1xx_it.o
+                0x0000000008001754                DMA1_Channel2_IRQHandler
  .text.USART3_IRQHandler
-                0x0000000008001698       0x10 obj/stm32f1xx_it.o
-                0x0000000008001698                USART3_IRQHandler
+                0x0000000008001764       0x10 obj/stm32f1xx_it.o
+                0x0000000008001764                USART3_IRQHandler
  .text.USART2_IRQHandler
-                0x00000000080016a8       0x10 obj/stm32f1xx_it.o
-                0x00000000080016a8                USART2_IRQHandler
+                0x0000000008001774       0x10 obj/stm32f1xx_it.o
+                0x0000000008001774                USART2_IRQHandler
  .text.DMA1_Channel4_IRQHandler
-                0x00000000080016b8       0x10 obj/stm32f1xx_it.o
-                0x00000000080016b8                DMA1_Channel4_IRQHandler
+                0x0000000008001784       0x10 obj/stm32f1xx_it.o
+                0x0000000008001784                DMA1_Channel4_IRQHandler
  .text.DMA1_Channel5_IRQHandler
-                0x00000000080016c8       0x10 obj/stm32f1xx_it.o
-                0x00000000080016c8                DMA1_Channel5_IRQHandler
+                0x0000000008001794       0x10 obj/stm32f1xx_it.o
+                0x0000000008001794                DMA1_Channel5_IRQHandler
  .text.SystemInit
-                0x00000000080016d8       0x4c obj/system_stm32f1xx.o
-                0x00000000080016d8                SystemInit
+                0x00000000080017a4       0x4c obj/system_stm32f1xx.o
+                0x00000000080017a4                SystemInit
  .text.HAL_InitTick
-                0x0000000008001724       0x28 obj/stm32f1xx_hal.o
-                0x0000000008001724                HAL_InitTick
+                0x00000000080017f0       0x28 obj/stm32f1xx_hal.o
+                0x00000000080017f0                HAL_InitTick
  .text.HAL_Init
-                0x000000000800174c       0x24 obj/stm32f1xx_hal.o
-                0x000000000800174c                HAL_Init
+                0x0000000008001818       0x24 obj/stm32f1xx_hal.o
+                0x0000000008001818                HAL_Init
  .text.HAL_IncTick
-                0x0000000008001770       0x10 obj/stm32f1xx_hal.o
-                0x0000000008001770                HAL_IncTick
+                0x000000000800183c       0x10 obj/stm32f1xx_hal.o
+                0x000000000800183c                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008001780        0xc obj/stm32f1xx_hal.o
-                0x0000000008001780                HAL_GetTick
+                0x000000000800184c        0xc obj/stm32f1xx_hal.o
+                0x000000000800184c                HAL_GetTick
  .text.HAL_Delay
-                0x000000000800178c       0x1c obj/stm32f1xx_hal.o
-                0x000000000800178c                HAL_Delay
+                0x0000000008001858       0x1c obj/stm32f1xx_hal.o
+                0x0000000008001858                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x00000000080017a8       0x3c obj/stm32f1xx_hal_cortex.o
-                0x00000000080017a8                HAL_NVIC_SetPriorityGrouping
+                0x0000000008001874       0x3c obj/stm32f1xx_hal_cortex.o
+                0x0000000008001874                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x00000000080017e4       0x8c obj/stm32f1xx_hal_cortex.o
-                0x00000000080017e4                HAL_NVIC_SetPriority
+                0x00000000080018b0       0x8c obj/stm32f1xx_hal_cortex.o
+                0x00000000080018b0                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008001870       0x2c obj/stm32f1xx_hal_cortex.o
-                0x0000000008001870                HAL_NVIC_EnableIRQ
+                0x000000000800193c       0x2c obj/stm32f1xx_hal_cortex.o
+                0x000000000800193c                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x000000000800189c       0x2c obj/stm32f1xx_hal_cortex.o
-                0x000000000800189c                HAL_SYSTICK_Config
+                0x0000000008001968       0x2c obj/stm32f1xx_hal_cortex.o
+                0x0000000008001968                HAL_SYSTICK_Config
  .text.HAL_SYSTICK_CLKSourceConfig
-                0x00000000080018c8       0x3c obj/stm32f1xx_hal_cortex.o
-                0x00000000080018c8                HAL_SYSTICK_CLKSourceConfig
+                0x0000000008001994       0x3c obj/stm32f1xx_hal_cortex.o
+                0x0000000008001994                HAL_SYSTICK_CLKSourceConfig
  .text.HAL_SYSTICK_Callback
-                0x0000000008001904        0x2 obj/stm32f1xx_hal_cortex.o
-                0x0000000008001904                HAL_SYSTICK_Callback
+                0x00000000080019d0        0x2 obj/stm32f1xx_hal_cortex.o
+                0x00000000080019d0                HAL_SYSTICK_Callback
  .text.HAL_SYSTICK_IRQHandler
-                0x0000000008001906        0x8 obj/stm32f1xx_hal_cortex.o
-                0x0000000008001906                HAL_SYSTICK_IRQHandler
+                0x00000000080019d2        0x8 obj/stm32f1xx_hal_cortex.o
+                0x00000000080019d2                HAL_SYSTICK_IRQHandler
  .text.DMA_SetConfig
-                0x000000000800190e       0x22 obj/stm32f1xx_hal_dma.o
+                0x00000000080019da       0x22 obj/stm32f1xx_hal_dma.o
  .text.HAL_DMA_Init
-                0x0000000008001930      0x138 obj/stm32f1xx_hal_dma.o
-                0x0000000008001930                HAL_DMA_Init
+                0x00000000080019fc      0x138 obj/stm32f1xx_hal_dma.o
+                0x00000000080019fc                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x0000000008001a68       0x80 obj/stm32f1xx_hal_dma.o
-                0x0000000008001a68                HAL_DMA_Start_IT
+                0x0000000008001b34       0x80 obj/stm32f1xx_hal_dma.o
+                0x0000000008001b34                HAL_DMA_Start_IT
  .text.HAL_DMA_IRQHandler
-                0x0000000008001ae8      0x270 obj/stm32f1xx_hal_dma.o
-                0x0000000008001ae8                HAL_DMA_IRQHandler
+                0x0000000008001bb4      0x270 obj/stm32f1xx_hal_dma.o
+                0x0000000008001bb4                HAL_DMA_IRQHandler
  .text.HAL_GPIO_Init
-                0x0000000008001d58      0x318 obj/stm32f1xx_hal_gpio.o
-                0x0000000008001d58                HAL_GPIO_Init
+                0x0000000008001e24      0x318 obj/stm32f1xx_hal_gpio.o
+                0x0000000008001e24                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008002070       0x38 obj/stm32f1xx_hal_gpio.o
-                0x0000000008002070                HAL_GPIO_WritePin
+                0x000000000800213c       0x38 obj/stm32f1xx_hal_gpio.o
+                0x000000000800213c                HAL_GPIO_WritePin
  .text.I2C_Configure_Speed
-                0x00000000080020a8       0x50 obj/stm32f1xx_hal_i2c.o
+                0x0000000008002174       0x50 obj/stm32f1xx_hal_i2c.o
  .text.I2C_IsAcknowledgeFailed
-                0x00000000080020f8       0x2a obj/stm32f1xx_hal_i2c.o
+                0x00000000080021c4       0x2a obj/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnFlagUntilTimeout
-                0x0000000008002122       0xc0 obj/stm32f1xx_hal_i2c.o
+                0x00000000080021ee       0xc0 obj/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnMasterAddressFlagUntilTimeout
-                0x00000000080021e2       0x92 obj/stm32f1xx_hal_i2c.o
+                0x00000000080022ae       0x92 obj/stm32f1xx_hal_i2c.o
  .text.I2C_MasterRequestWrite
-                0x0000000008002274       0x8c obj/stm32f1xx_hal_i2c.o
+                0x0000000008002340       0x8c obj/stm32f1xx_hal_i2c.o
  .text.I2C_MasterRequestRead
-                0x0000000008002300       0xe8 obj/stm32f1xx_hal_i2c.o
+                0x00000000080023cc       0xe8 obj/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnTXEFlagUntilTimeout
-                0x00000000080023e8       0x50 obj/stm32f1xx_hal_i2c.o
+                0x00000000080024b4       0x50 obj/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnBTFFlagUntilTimeout
-                0x0000000008002438       0x50 obj/stm32f1xx_hal_i2c.o
+                0x0000000008002504       0x50 obj/stm32f1xx_hal_i2c.o
  .text.HAL_I2C_Init
-                0x0000000008002488      0x188 obj/stm32f1xx_hal_i2c.o
-                0x0000000008002488                HAL_I2C_Init
+                0x0000000008002554      0x188 obj/stm32f1xx_hal_i2c.o
+                0x0000000008002554                HAL_I2C_Init
  .text.HAL_I2C_Master_Transmit
-                0x0000000008002610      0x130 obj/stm32f1xx_hal_i2c.o
-                0x0000000008002610                HAL_I2C_Master_Transmit
+                0x00000000080026dc      0x130 obj/stm32f1xx_hal_i2c.o
+                0x00000000080026dc                HAL_I2C_Master_Transmit
  .text.HAL_I2C_Master_Transmit_DMA
-                0x0000000008002740       0xe0 obj/stm32f1xx_hal_i2c.o
-                0x0000000008002740                HAL_I2C_Master_Transmit_DMA
+                0x000000000800280c       0xe0 obj/stm32f1xx_hal_i2c.o
+                0x000000000800280c                HAL_I2C_Master_Transmit_DMA
  .text.HAL_I2C_Master_Receive_DMA
-                0x0000000008002820       0xf8 obj/stm32f1xx_hal_i2c.o
-                0x0000000008002820                HAL_I2C_Master_Receive_DMA
+                0x00000000080028ec       0xf8 obj/stm32f1xx_hal_i2c.o
+                0x00000000080028ec                HAL_I2C_Master_Receive_DMA
  .text.HAL_I2C_ErrorCallback
-                0x0000000008002918        0x2 obj/stm32f1xx_hal_i2c.o
-                0x0000000008002918                HAL_I2C_ErrorCallback
+                0x00000000080029e4        0x2 obj/stm32f1xx_hal_i2c.o
+                0x00000000080029e4                HAL_I2C_ErrorCallback
  .text.I2C_DMAError
-                0x000000000800291a       0x2a obj/stm32f1xx_hal_i2c.o
+                0x00000000080029e6       0x2a obj/stm32f1xx_hal_i2c.o
  .text.I2C_DMAMasterTransmitCplt
-                0x0000000008002944       0x54 obj/stm32f1xx_hal_i2c.o
+                0x0000000008002a10       0x54 obj/stm32f1xx_hal_i2c.o
  .text.I2C_DMAMasterReceiveCplt
-                0x0000000008002998       0x4a obj/stm32f1xx_hal_i2c.o
+                0x0000000008002a64       0x4a obj/stm32f1xx_hal_i2c.o
  .text.HAL_IWDG_MspInit
-                0x00000000080029e2        0x2 obj/stm32f1xx_hal_iwdg.o
-                0x00000000080029e2                HAL_IWDG_MspInit
+                0x0000000008002aae        0x2 obj/stm32f1xx_hal_iwdg.o
+                0x0000000008002aae                HAL_IWDG_MspInit
  .text.HAL_IWDG_Init
-                0x00000000080029e4       0xa0 obj/stm32f1xx_hal_iwdg.o
-                0x00000000080029e4                HAL_IWDG_Init
+                0x0000000008002ab0       0xa0 obj/stm32f1xx_hal_iwdg.o
+                0x0000000008002ab0                HAL_IWDG_Init
  .text.HAL_IWDG_Start
-                0x0000000008002a84       0x2a obj/stm32f1xx_hal_iwdg.o
-                0x0000000008002a84                HAL_IWDG_Start
+                0x0000000008002b50       0x2a obj/stm32f1xx_hal_iwdg.o
+                0x0000000008002b50                HAL_IWDG_Start
  .text.HAL_IWDG_Refresh
-                0x0000000008002aae       0x4c obj/stm32f1xx_hal_iwdg.o
-                0x0000000008002aae                HAL_IWDG_Refresh
- *fill*         0x0000000008002afa        0x2 
+                0x0000000008002b7a       0x4c obj/stm32f1xx_hal_iwdg.o
+                0x0000000008002b7a                HAL_IWDG_Refresh
+ *fill*         0x0000000008002bc6        0x2 
  .text.HAL_RCC_OscConfig
-                0x0000000008002afc      0x728 obj/stm32f1xx_hal_rcc.o
-                0x0000000008002afc                HAL_RCC_OscConfig
+                0x0000000008002bc8      0x728 obj/stm32f1xx_hal_rcc.o
+                0x0000000008002bc8                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008003224       0x8c obj/stm32f1xx_hal_rcc.o
-                0x0000000008003224                HAL_RCC_GetSysClockFreq
+                0x00000000080032f0       0x8c obj/stm32f1xx_hal_rcc.o
+                0x00000000080032f0                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x00000000080032b0      0x2a0 obj/stm32f1xx_hal_rcc.o
-                0x00000000080032b0                HAL_RCC_ClockConfig
+                0x000000000800337c      0x2a0 obj/stm32f1xx_hal_rcc.o
+                0x000000000800337c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008003550        0xc obj/stm32f1xx_hal_rcc.o
-                0x0000000008003550                HAL_RCC_GetHCLKFreq
+                0x000000000800361c        0xc obj/stm32f1xx_hal_rcc.o
+                0x000000000800361c                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x000000000800355c       0x2c obj/stm32f1xx_hal_rcc.o
-                0x000000000800355c                HAL_RCC_GetPCLK1Freq
+                0x0000000008003628       0x2c obj/stm32f1xx_hal_rcc.o
+                0x0000000008003628                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008003588       0x2c obj/stm32f1xx_hal_rcc.o
-                0x0000000008003588                HAL_RCC_GetPCLK2Freq
+                0x0000000008003654       0x2c obj/stm32f1xx_hal_rcc.o
+                0x0000000008003654                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x00000000080035b4      0x1a4 obj/stm32f1xx_hal_rcc_ex.o
-                0x00000000080035b4                HAL_RCCEx_PeriphCLKConfig
+                0x0000000008003680      0x1a4 obj/stm32f1xx_hal_rcc_ex.o
+                0x0000000008003680                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_TIM_Base_Start
-                0x0000000008003758       0x50 obj/stm32f1xx_hal_tim.o
-                0x0000000008003758                HAL_TIM_Base_Start
+                0x0000000008003824       0x50 obj/stm32f1xx_hal_tim.o
+                0x0000000008003824                HAL_TIM_Base_Start
  .text.HAL_TIM_PeriodElapsedCallback
-                0x00000000080037a8        0x2 obj/stm32f1xx_hal_tim.o
-                0x00000000080037a8                HAL_TIM_PeriodElapsedCallback
+                0x0000000008003874        0x2 obj/stm32f1xx_hal_tim.o
+                0x0000000008003874                HAL_TIM_PeriodElapsedCallback
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x00000000080037aa        0x2 obj/stm32f1xx_hal_tim.o
-                0x00000000080037aa                HAL_TIM_OC_DelayElapsedCallback
+                0x0000000008003876        0x2 obj/stm32f1xx_hal_tim.o
+                0x0000000008003876                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x00000000080037ac        0x2 obj/stm32f1xx_hal_tim.o
-                0x00000000080037ac                HAL_TIM_IC_CaptureCallback
+                0x0000000008003878        0x2 obj/stm32f1xx_hal_tim.o
+                0x0000000008003878                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x00000000080037ae        0x2 obj/stm32f1xx_hal_tim.o
-                0x00000000080037ae                HAL_TIM_PWM_PulseFinishedCallback
+                0x000000000800387a        0x2 obj/stm32f1xx_hal_tim.o
+                0x000000000800387a                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x00000000080037b0        0x2 obj/stm32f1xx_hal_tim.o
-                0x00000000080037b0                HAL_TIM_TriggerCallback
+                0x000000000800387c        0x2 obj/stm32f1xx_hal_tim.o
+                0x000000000800387c                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x00000000080037b2      0x17a obj/stm32f1xx_hal_tim.o
-                0x00000000080037b2                HAL_TIM_IRQHandler
+                0x000000000800387e      0x17a obj/stm32f1xx_hal_tim.o
+                0x000000000800387e                HAL_TIM_IRQHandler
  .text.TIM_Base_SetConfig
-                0x000000000800392c       0x6c obj/stm32f1xx_hal_tim.o
-                0x000000000800392c                TIM_Base_SetConfig
+                0x00000000080039f8       0x6c obj/stm32f1xx_hal_tim.o
+                0x00000000080039f8                TIM_Base_SetConfig
  .text.HAL_TIM_Encoder_Init
-                0x0000000008003998      0x194 obj/stm32f1xx_hal_tim.o
-                0x0000000008003998                HAL_TIM_Encoder_Init
+                0x0000000008003a64      0x194 obj/stm32f1xx_hal_tim.o
+                0x0000000008003a64                HAL_TIM_Encoder_Init
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x0000000008003b2c       0xc4 obj/stm32f1xx_hal_tim_ex.o
-                0x0000000008003b2c                HAL_TIMEx_MasterConfigSynchronization
+                0x0000000008003bf8       0xc4 obj/stm32f1xx_hal_tim_ex.o
+                0x0000000008003bf8                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutationCallback
-                0x0000000008003bf0        0x2 obj/stm32f1xx_hal_tim_ex.o
-                0x0000000008003bf0                HAL_TIMEx_CommutationCallback
+                0x0000000008003cbc        0x2 obj/stm32f1xx_hal_tim_ex.o
+                0x0000000008003cbc                HAL_TIMEx_CommutationCallback
  .text.HAL_TIMEx_BreakCallback
-                0x0000000008003bf2        0x2 obj/stm32f1xx_hal_tim_ex.o
-                0x0000000008003bf2                HAL_TIMEx_BreakCallback
+                0x0000000008003cbe        0x2 obj/stm32f1xx_hal_tim_ex.o
+                0x0000000008003cbe                HAL_TIMEx_BreakCallback
  .text.UART_Transmit_IT
-                0x0000000008003bf4       0x6c obj/stm32f1xx_hal_uart.o
+                0x0000000008003cc0       0x6c obj/stm32f1xx_hal_uart.o
  .text.UART_SetConfig
-                0x0000000008003c60      0x214 obj/stm32f1xx_hal_uart.o
+                0x0000000008003d2c      0x214 obj/stm32f1xx_hal_uart.o
  .text.HAL_UART_Init
-                0x0000000008003e74       0xf8 obj/stm32f1xx_hal_uart.o
-                0x0000000008003e74                HAL_UART_Init
+                0x0000000008003f40       0xf8 obj/stm32f1xx_hal_uart.o
+                0x0000000008003f40                HAL_UART_Init
  .text.HAL_UART_Transmit_DMA
-                0x0000000008003f6c       0xa0 obj/stm32f1xx_hal_uart.o
-                0x0000000008003f6c                HAL_UART_Transmit_DMA
+                0x0000000008004038       0xa0 obj/stm32f1xx_hal_uart.o
+                0x0000000008004038                HAL_UART_Transmit_DMA
  .text.HAL_UART_Receive_DMA
-                0x000000000800400c       0x98 obj/stm32f1xx_hal_uart.o
-                0x000000000800400c                HAL_UART_Receive_DMA
+                0x00000000080040d8       0x98 obj/stm32f1xx_hal_uart.o
+                0x00000000080040d8                HAL_UART_Receive_DMA
  .text.UART_DMATransmitCplt
-                0x00000000080040a4       0x30 obj/stm32f1xx_hal_uart.o
+                0x0000000008004170       0x30 obj/stm32f1xx_hal_uart.o
  .text.UART_EndTransmit_IT
-                0x00000000080040d4       0x2c obj/stm32f1xx_hal_uart.o
+                0x00000000080041a0       0x2c obj/stm32f1xx_hal_uart.o
  .text.HAL_UART_TxHalfCpltCallback
-                0x0000000008004100        0x2 obj/stm32f1xx_hal_uart.o
-                0x0000000008004100                HAL_UART_TxHalfCpltCallback
+                0x00000000080041cc        0x2 obj/stm32f1xx_hal_uart.o
+                0x00000000080041cc                HAL_UART_TxHalfCpltCallback
  .text.UART_DMATxHalfCplt
-                0x0000000008004102        0xa obj/stm32f1xx_hal_uart.o
+                0x00000000080041ce        0xa obj/stm32f1xx_hal_uart.o
  .text.UART_DMAReceiveCplt
-                0x000000000800410c       0x3c obj/stm32f1xx_hal_uart.o
+                0x00000000080041d8       0x3c obj/stm32f1xx_hal_uart.o
  .text.UART_Receive_IT
-                0x0000000008004148       0xb6 obj/stm32f1xx_hal_uart.o
+                0x0000000008004214       0xb6 obj/stm32f1xx_hal_uart.o
  .text.HAL_UART_RxHalfCpltCallback
-                0x00000000080041fe        0x2 obj/stm32f1xx_hal_uart.o
-                0x00000000080041fe                HAL_UART_RxHalfCpltCallback
+                0x00000000080042ca        0x2 obj/stm32f1xx_hal_uart.o
+                0x00000000080042ca                HAL_UART_RxHalfCpltCallback
  .text.UART_DMARxHalfCplt
-                0x0000000008004200        0xa obj/stm32f1xx_hal_uart.o
+                0x00000000080042cc        0xa obj/stm32f1xx_hal_uart.o
  .text.HAL_UART_ErrorCallback
-                0x000000000800420a        0x2 obj/stm32f1xx_hal_uart.o
-                0x000000000800420a                HAL_UART_ErrorCallback
+                0x00000000080042d6        0x2 obj/stm32f1xx_hal_uart.o
+                0x00000000080042d6                HAL_UART_ErrorCallback
  .text.UART_DMAError
-                0x000000000800420c       0x1e obj/stm32f1xx_hal_uart.o
+                0x00000000080042d8       0x1e obj/stm32f1xx_hal_uart.o
  .text.HAL_UART_IRQHandler
-                0x000000000800422a       0xca obj/stm32f1xx_hal_uart.o
-                0x000000000800422a                HAL_UART_IRQHandler
+                0x00000000080042f6       0xca obj/stm32f1xx_hal_uart.o
+                0x00000000080042f6                HAL_UART_IRQHandler
  .text.MW_EncoderInit
-                0x00000000080042f4       0x70 obj/MW_ENCODER.o
-                0x00000000080042f4                MW_EncoderInit
+                0x00000000080043c0       0x70 obj/MW_ENCODER.o
+                0x00000000080043c0                MW_EncoderInit
  .text.MW_GetEncoderVal
-                0x0000000008004364       0x28 obj/MW_ENCODER.o
-                0x0000000008004364                MW_GetEncoderVal
+                0x0000000008004430       0x28 obj/MW_ENCODER.o
+                0x0000000008004430                MW_GetEncoderVal
  .text.MW_WriteEncoderVal
-                0x000000000800438c       0x28 obj/MW_ENCODER.o
-                0x000000000800438c                MW_WriteEncoderVal
+                0x0000000008004458       0x28 obj/MW_ENCODER.o
+                0x0000000008004458                MW_WriteEncoderVal
  .text.MW_SetGPIOPin
-                0x00000000080043b4        0xc obj/MW_GPIO.o
-                0x00000000080043b4                MW_SetGPIOPin
+                0x0000000008004480        0xc obj/MW_GPIO.o
+                0x0000000008004480                MW_SetGPIOPin
  .text.MW_SetGPIOMode
-                0x00000000080043c0        0xc obj/MW_GPIO.o
-                0x00000000080043c0                MW_SetGPIOMode
+                0x000000000800448c        0xc obj/MW_GPIO.o
+                0x000000000800448c                MW_SetGPIOMode
  .text.MW_SetGPIOPull
-                0x00000000080043cc        0xc obj/MW_GPIO.o
-                0x00000000080043cc                MW_SetGPIOPull
+                0x0000000008004498        0xc obj/MW_GPIO.o
+                0x0000000008004498                MW_SetGPIOPull
  .text.MW_SetGPIOSpeed
-                0x00000000080043d8        0xc obj/MW_GPIO.o
-                0x00000000080043d8                MW_SetGPIOSpeed
+                0x00000000080044a4        0xc obj/MW_GPIO.o
+                0x00000000080044a4                MW_SetGPIOSpeed
  .text.MW_GPIOInit
-                0x00000000080043e4       0x2c obj/MW_GPIO.o
-                0x00000000080043e4                MW_GPIOInit
+                0x00000000080044b0       0x2c obj/MW_GPIO.o
+                0x00000000080044b0                MW_GPIOInit
  .text.MW_GPIOWrite
-                0x0000000008004410       0x30 obj/MW_GPIO.o
-                0x0000000008004410                MW_GPIOWrite
+                0x00000000080044dc       0x30 obj/MW_GPIO.o
+                0x00000000080044dc                MW_GPIOWrite
  .text.MW_SetI2CClockSpeed
-                0x0000000008004440       0x24 obj/MW_I2C.o
-                0x0000000008004440                MW_SetI2CClockSpeed
+                0x000000000800450c       0x24 obj/MW_I2C.o
+                0x000000000800450c                MW_SetI2CClockSpeed
  .text.MW_I2CInit
-                0x0000000008004464       0x1c obj/MW_I2C.o
-                0x0000000008004464                MW_I2CInit
+                0x0000000008004530       0x1c obj/MW_I2C.o
+                0x0000000008004530                MW_I2CInit
  .text.MW_I2C1Transmit
-                0x0000000008004480       0x28 obj/MW_I2C.o
-                0x0000000008004480                MW_I2C1Transmit
+                0x000000000800454c       0x28 obj/MW_I2C.o
+                0x000000000800454c                MW_I2C1Transmit
  .text.MW_I2C2Transmit
-                0x00000000080044a8       0x30 obj/MW_I2C.o
-                0x00000000080044a8                MW_I2C2Transmit
+                0x0000000008004574       0x30 obj/MW_I2C.o
+                0x0000000008004574                MW_I2C2Transmit
  .text.MW_I2C2Receive
-                0x00000000080044d8       0x30 obj/MW_I2C.o
-                0x00000000080044d8                MW_I2C2Receive
+                0x00000000080045a4       0x30 obj/MW_I2C.o
+                0x00000000080045a4                MW_I2C2Receive
  .text.MW_I2C2TransitionCompletedCallBack
-                0x0000000008004508        0xc obj/MW_I2C.o
-                0x0000000008004508                MW_I2C2TransitionCompletedCallBack
+                0x00000000080045d4        0xc obj/MW_I2C.o
+                0x00000000080045d4                MW_I2C2TransitionCompletedCallBack
  .text.MW_I2C2ReceptionCompletedCallBack
-                0x0000000008004514        0xc obj/MW_I2C.o
-                0x0000000008004514                MW_I2C2ReceptionCompletedCallBack
+                0x00000000080045e0        0xc obj/MW_I2C.o
+                0x00000000080045e0                MW_I2C2ReceptionCompletedCallBack
  .text.MW_SetIWDGPrescaler
-                0x0000000008004520        0xc obj/MW_IWDG.o
-                0x0000000008004520                MW_SetIWDGPrescaler
+                0x00000000080045ec        0xc obj/MW_IWDG.o
+                0x00000000080045ec                MW_SetIWDGPrescaler
  .text.MW_SetIWDGReload
-                0x000000000800452c        0xc obj/MW_IWDG.o
-                0x000000000800452c                MW_SetIWDGReload
+                0x00000000080045f8        0xc obj/MW_IWDG.o
+                0x00000000080045f8                MW_SetIWDGReload
  .text.MW_IWDGInit
-                0x0000000008004538       0x1c obj/MW_IWDG.o
-                0x0000000008004538                MW_IWDGInit
+                0x0000000008004604       0x1c obj/MW_IWDG.o
+                0x0000000008004604                MW_IWDGInit
  .text.MW_IWDGClr
-                0x0000000008004554       0x10 obj/MW_IWDG.o
-                0x0000000008004554                MW_IWDGClr
+                0x0000000008004620       0x10 obj/MW_IWDG.o
+                0x0000000008004620                MW_IWDGClr
  .text.TIM1_UP_IRQHandler
-                0x0000000008004564       0x10 obj/MW_TIM.o
-                0x0000000008004564                TIM1_UP_IRQHandler
+                0x0000000008004630       0x10 obj/MW_TIM.o
+                0x0000000008004630                TIM1_UP_IRQHandler
  .text.TIM2_IRQHandler
-                0x0000000008004574       0x10 obj/MW_TIM.o
-                0x0000000008004574                TIM2_IRQHandler
+                0x0000000008004640       0x10 obj/MW_TIM.o
+                0x0000000008004640                TIM2_IRQHandler
  .text.MW_USARTSetBaudRate
-                0x0000000008004584       0x28 obj/MW_USART.o
-                0x0000000008004584                MW_USARTSetBaudRate
+                0x0000000008004650       0x28 obj/MW_USART.o
+                0x0000000008004650                MW_USARTSetBaudRate
  .text.MW_USARTInit
-                0x00000000080045ac       0x1c obj/MW_USART.o
-                0x00000000080045ac                MW_USARTInit
+                0x0000000008004678       0x1c obj/MW_USART.o
+                0x0000000008004678                MW_USARTInit
  .text.MW_USART2Transmit
-                0x00000000080045c8       0x1c obj/MW_USART.o
-                0x00000000080045c8                MW_USART2Transmit
+                0x0000000008004694       0x1c obj/MW_USART.o
+                0x0000000008004694                MW_USART2Transmit
  .text.MW_USART3ReceiveMult
-                0x00000000080045e4       0x1c obj/MW_USART.o
-                0x00000000080045e4                MW_USART3ReceiveMult
+                0x00000000080046b0       0x1c obj/MW_USART.o
+                0x00000000080046b0                MW_USART3ReceiveMult
  .text._xprintf
-                0x0000000008004600       0x1c obj/message.o
+                0x00000000080046cc       0x1c obj/message.o
  .text.MW_waitForMessageTransitionComplete
-                0x000000000800461c       0x3c obj/message.o
-                0x000000000800461c                MW_waitForMessageTransitionComplete
- .text.flush    0x0000000008004658       0x40 obj/message.o
-                0x0000000008004658                flush
+                0x00000000080046e8       0x3c obj/message.o
+                0x00000000080046e8                MW_waitForMessageTransitionComplete
+ .text.flush    0x0000000008004724       0x40 obj/message.o
+                0x0000000008004724                flush
  .text.MW_printf
-                0x0000000008004698       0x44 obj/message.o
-                0x0000000008004698                MW_printf
- .text._msg     0x00000000080046dc       0x4c obj/message.o
-                0x00000000080046dc                _msg
+                0x0000000008004764       0x44 obj/message.o
+                0x0000000008004764                MW_printf
+ .text._msg     0x00000000080047a8       0x4c obj/message.o
+                0x00000000080047a8                _msg
  .text.MW_messageTransitionCompletedCallBack
-                0x0000000008004728        0xc obj/message.o
-                0x0000000008004728                MW_messageTransitionCompletedCallBack
- .text.xputc    0x0000000008004734       0x38 obj/xprintf.o
-                0x0000000008004734                xputc
- .text.xputs    0x000000000800476c       0x14 obj/xprintf.o
-                0x000000000800476c                xputs
+                0x00000000080047f4        0xc obj/message.o
+                0x00000000080047f4                MW_messageTransitionCompletedCallBack
+ .text.xputc    0x0000000008004800       0x38 obj/xprintf.o
+                0x0000000008004800                xputc
+ .text.xputs    0x0000000008004838       0x14 obj/xprintf.o
+                0x0000000008004838                xputs
  .text.xvprintf
-                0x0000000008004780      0x1fa obj/xprintf.o
-                0x0000000008004780                xvprintf
+                0x000000000800484c      0x1fa obj/xprintf.o
+                0x000000000800484c                xvprintf
  .text.DD_send2AB
-                0x000000000800497a       0x20 obj/DD_AB.o
-                0x000000000800497a                DD_send2AB
- *fill*         0x000000000800499a        0x2 
+                0x0000000008004a46       0x20 obj/DD_AB.o
+                0x0000000008004a46                DD_send2AB
+ *fill*         0x0000000008004a66        0x2 
  .text.DD_ABHandPrint
-                0x000000000800499c       0x14 obj/DD_AB.o
-                0x000000000800499c                DD_ABHandPrint
+                0x0000000008004a68       0x14 obj/DD_AB.o
+                0x0000000008004a68                DD_ABHandPrint
  .text.DD_InitEncoder1
-                0x00000000080049b0        0xa obj/DD_ENCODER.o
-                0x00000000080049b0                DD_InitEncoder1
+                0x0000000008004a7c        0xa obj/DD_ENCODER.o
+                0x0000000008004a7c                DD_InitEncoder1
  .text.DD_InitEncoder2
-                0x00000000080049ba        0xa obj/DD_ENCODER.o
-                0x00000000080049ba                DD_InitEncoder2
+                0x0000000008004a86        0xa obj/DD_ENCODER.o
+                0x0000000008004a86                DD_InitEncoder2
  .text.DD_encoder1update
-                0x00000000080049c4       0x20 obj/DD_ENCODER.o
-                0x00000000080049c4                DD_encoder1update
+                0x0000000008004a90       0x20 obj/DD_ENCODER.o
+                0x0000000008004a90                DD_encoder1update
  .text.DD_encoder2update
-                0x00000000080049e4       0x20 obj/DD_ENCODER.o
-                0x00000000080049e4                DD_encoder2update
+                0x0000000008004ab0       0x20 obj/DD_ENCODER.o
+                0x0000000008004ab0                DD_encoder2update
  .text.DD_encoderprint
-                0x0000000008004a04       0x20 obj/DD_ENCODER.o
-                0x0000000008004a04                DD_encoderprint
+                0x0000000008004ad0       0x20 obj/DD_ENCODER.o
+                0x0000000008004ad0                DD_encoderprint
  .text.DD_I2C1Send
-                0x0000000008004a24       0x38 obj/DD_Gene.o
-                0x0000000008004a24                DD_I2C1Send
+                0x0000000008004af0       0x38 obj/DD_Gene.o
+                0x0000000008004af0                DD_I2C1Send
  .text.DD_I2C2Send
-                0x0000000008004a5c       0x5c obj/DD_Gene.o
-                0x0000000008004a5c                DD_I2C2Send
+                0x0000000008004b28       0x5c obj/DD_Gene.o
+                0x0000000008004b28                DD_I2C2Send
  .text.DD_I2C2Receive
-                0x0000000008004ab8       0x5c obj/DD_Gene.o
-                0x0000000008004ab8                DD_I2C2Receive
+                0x0000000008004b84       0x5c obj/DD_Gene.o
+                0x0000000008004b84                DD_I2C2Receive
  .text.DD_doTasks
-                0x0000000008004b14       0x88 obj/DD_Gene.o
-                0x0000000008004b14                DD_doTasks
+                0x0000000008004be0       0x88 obj/DD_Gene.o
+                0x0000000008004be0                DD_doTasks
  .text.DD_print
-                0x0000000008004b9c       0x5c obj/DD_Gene.o
-                0x0000000008004b9c                DD_print
+                0x0000000008004c68       0x5c obj/DD_Gene.o
+                0x0000000008004c68                DD_print
  .text.DD_initialize
-                0x0000000008004bf8       0x94 obj/DD_Gene.o
-                0x0000000008004bf8                DD_initialize
+                0x0000000008004cc4       0x94 obj/DD_Gene.o
+                0x0000000008004cc4                DD_initialize
  .text.DD_send2MD
-                0x0000000008004c8c       0x58 obj/DD_MD.o
-                0x0000000008004c8c                DD_send2MD
+                0x0000000008004d58       0x58 obj/DD_MD.o
+                0x0000000008004d58                DD_send2MD
  .text.DD_MDHandPrint
-                0x0000000008004ce4       0x5c obj/DD_MD.o
-                0x0000000008004ce4                DD_MDHandPrint
+                0x0000000008004db0       0x5c obj/DD_MD.o
+                0x0000000008004db0                DD_MDHandPrint
  .text.DD_RCInit
-                0x0000000008004d40       0x88 obj/DD_RC.o
-                0x0000000008004d40                DD_RCInit
+                0x0000000008004e0c       0x88 obj/DD_RC.o
+                0x0000000008004e0c                DD_RCInit
  .text.DD_RC_element
-                0x0000000008004dc8       0x6c obj/DD_RC.o
-                0x0000000008004dc8                DD_RC_element
+                0x0000000008004e94       0x6c obj/DD_RC.o
+                0x0000000008004e94                DD_RC_element
  .text.DD_RCTask
-                0x0000000008004e34       0x48 obj/DD_RC.o
-                0x0000000008004e34                DD_RCTask
+                0x0000000008004f00       0x48 obj/DD_RC.o
+                0x0000000008004f00                DD_RCTask
  .text.DD_RCGetLX
-                0x0000000008004e7c       0x22 obj/DD_RC.o
-                0x0000000008004e7c                DD_RCGetLX
+                0x0000000008004f48       0x22 obj/DD_RC.o
+                0x0000000008004f48                DD_RCGetLX
  .text.DD_RCGetLY
-                0x0000000008004e9e       0x22 obj/DD_RC.o
-                0x0000000008004e9e                DD_RCGetLY
+                0x0000000008004f6a       0x22 obj/DD_RC.o
+                0x0000000008004f6a                DD_RCGetLY
  .text.DD_RCGetRX
-                0x0000000008004ec0       0x22 obj/DD_RC.o
-                0x0000000008004ec0                DD_RCGetRX
+                0x0000000008004f8c       0x22 obj/DD_RC.o
+                0x0000000008004f8c                DD_RCGetRX
  .text.DD_RCGetRY
-                0x0000000008004ee2       0x22 obj/DD_RC.o
-                0x0000000008004ee2                DD_RCGetRY
+                0x0000000008004fae       0x22 obj/DD_RC.o
+                0x0000000008004fae                DD_RCGetRY
  .text.DD_RCPrint
-                0x0000000008004f04      0x2a8 obj/DD_RC.o
-                0x0000000008004f04                DD_RCPrint
+                0x0000000008004fd0      0x2a8 obj/DD_RC.o
+                0x0000000008004fd0                DD_RCPrint
  .text.DD_SSHandPrint
-                0x00000000080051ac       0x94 obj/DD_SS.o
-                0x00000000080051ac                DD_SSHandPrint
- .text.SS_Init  0x0000000008005240        0x4 obj/DD_SS.o
-                0x0000000008005240                SS_Init
+                0x0000000008005278       0x94 obj/DD_SS.o
+                0x0000000008005278                DD_SSHandPrint
+ .text.SS_Init  0x000000000800530c        0x4 obj/DD_SS.o
+                0x000000000800530c                SS_Init
  .text.DD_SSPutReceiveRequest
-                0x0000000008005244       0x3c obj/DD_SS.o
-                0x0000000008005244                DD_SSPutReceiveRequest
+                0x0000000008005310       0x3c obj/DD_SS.o
+                0x0000000008005310                DD_SSPutReceiveRequest
  .text.DD_SSPullReceiveRequest
-                0x0000000008005280       0x38 obj/DD_SS.o
-                0x0000000008005280                DD_SSPullReceiveRequest
+                0x000000000800534c       0x38 obj/DD_SS.o
+                0x000000000800534c                DD_SSPullReceiveRequest
  .text.Empty_Check
-                0x00000000080052b8       0x20 obj/DD_SS.o
-                0x00000000080052b8                Empty_Check
+                0x0000000008005384       0x20 obj/DD_SS.o
+                0x0000000008005384                Empty_Check
  .text.Read_ENCODER
-                0x00000000080052d8       0x12 obj/DD_SS.o
-                0x00000000080052d8                Read_ENCODER
+                0x00000000080053a4       0x12 obj/DD_SS.o
+                0x00000000080053a4                Read_ENCODER
  .text.Read_SRF02
-                0x00000000080052ea       0x12 obj/DD_SS.o
-                0x00000000080052ea                Read_SRF02
+                0x00000000080053b6       0x12 obj/DD_SS.o
+                0x00000000080053b6                Read_SRF02
  .text.Read_GP2Y0A710K
-                0x00000000080052fc       0x12 obj/DD_SS.o
-                0x00000000080052fc                Read_GP2Y0A710K
+                0x00000000080053c8       0x12 obj/DD_SS.o
+                0x00000000080053c8                Read_GP2Y0A710K
  .text.Read_BMX055
-                0x000000000800530e       0x12 obj/DD_SS.o
-                0x000000000800530e                Read_BMX055
+                0x00000000080053da       0x12 obj/DD_SS.o
+                0x00000000080053da                Read_BMX055
  .text.Write_BMX055
-                0x0000000008005320       0x12 obj/DD_SS.o
-                0x0000000008005320                Write_BMX055
+                0x00000000080053ec       0x12 obj/DD_SS.o
+                0x00000000080053ec                Write_BMX055
  .text.Read_PHOTOARRAY
-                0x0000000008005332       0x12 obj/DD_SS.o
-                0x0000000008005332                Read_PHOTOARRAY
+                0x00000000080053fe       0x12 obj/DD_SS.o
+                0x00000000080053fe                Read_PHOTOARRAY
  .text.DD_receive2SS
-                0x0000000008005344      0x134 obj/DD_SS.o
-                0x0000000008005344                DD_receive2SS
+                0x0000000008005410      0x134 obj/DD_SS.o
+                0x0000000008005410                DD_receive2SS
  .text.SY_I2CConnTest
-                0x0000000008005478        0x4 obj/SystemTaskManager.o
+                0x0000000008005544        0x4 obj/SystemTaskManager.o
  .text.SY_clockInit
-                0x000000000800547c       0xcc obj/SystemTaskManager.o
+                0x0000000008005548       0xcc obj/SystemTaskManager.o
  .text.SY_GPIOInit
-                0x0000000008005548       0x94 obj/SystemTaskManager.o
- .text.SY_init  0x00000000080055dc       0xd8 obj/SystemTaskManager.o
+                0x0000000008005614       0x94 obj/SystemTaskManager.o
+ .text.SY_init  0x00000000080056a8       0xd8 obj/SystemTaskManager.o
  .text.SY_doAppTasks
-                0x00000000080056b4        0x8 obj/SystemTaskManager.o
+                0x0000000008005780        0x8 obj/SystemTaskManager.o
  .text.SY_doDevDriverTasks
-                0x00000000080056bc        0x8 obj/SystemTaskManager.o
- .text.main     0x00000000080056c4      0x1b8 obj/SystemTaskManager.o
-                0x00000000080056c4                main
- .text.SY_wait  0x000000000800587c       0x2c obj/SystemTaskManager.o
-                0x000000000800587c                SY_wait
+                0x0000000008005788        0x8 obj/SystemTaskManager.o
+ .text.main     0x0000000008005790      0x1b0 obj/SystemTaskManager.o
+                0x0000000008005790                main
+ .text.SY_wait  0x0000000008005940       0x2c obj/SystemTaskManager.o
+                0x0000000008005940                SY_wait
  .text.HAL_UART_RxCpltCallback
-                0x00000000080058a8       0x3c obj/SystemTaskManager.o
-                0x00000000080058a8                HAL_UART_RxCpltCallback
+                0x000000000800596c       0x48 obj/SystemTaskManager.o
+                0x000000000800596c                HAL_UART_RxCpltCallback
  .text.HAL_UART_TxCpltCallback
-                0x00000000080058e4        0x8 obj/SystemTaskManager.o
-                0x00000000080058e4                HAL_UART_TxCpltCallback
+                0x00000000080059b4        0x8 obj/SystemTaskManager.o
+                0x00000000080059b4                HAL_UART_TxCpltCallback
  .text.HAL_I2C_MasterTxCpltCallback
-                0x00000000080058ec        0xc obj/SystemTaskManager.o
-                0x00000000080058ec                HAL_I2C_MasterTxCpltCallback
+                0x00000000080059bc        0xc obj/SystemTaskManager.o
+                0x00000000080059bc                HAL_I2C_MasterTxCpltCallback
  .text.HAL_I2C_MasterRxCpltCallback
-                0x00000000080058f8        0xc obj/SystemTaskManager.o
-                0x00000000080058f8                HAL_I2C_MasterRxCpltCallback
+                0x00000000080059c8        0xc obj/SystemTaskManager.o
+                0x00000000080059c8                HAL_I2C_MasterRxCpltCallback
  .text.Reset_Handler
-                0x0000000008005904       0x48 obj/startup.o
-                0x0000000008005904                Reset_Handler
+                0x00000000080059d4       0x48 obj/startup.o
+                0x00000000080059d4                Reset_Handler
  .text.Default_Handler
-                0x000000000800594c        0x2 obj/startup.o
-                0x000000000800594c                USBWakeUp_IRQHandler
-                0x000000000800594c                EXTI2_IRQHandler
-                0x000000000800594c                TIM1_CC_IRQHandler
-                0x000000000800594c                PVD_IRQHandler
-                0x000000000800594c                EXTI3_IRQHandler
-                0x000000000800594c                EXTI0_IRQHandler
-                0x000000000800594c                I2C2_EV_IRQHandler
-                0x000000000800594c                ADC1_2_IRQHandler
-                0x000000000800594c                SPI1_IRQHandler
-                0x000000000800594c                TAMPER_IRQHandler
-                0x000000000800594c                RTC_IRQHandler
-                0x000000000800594c                CAN1_RX1_IRQHandler
-                0x000000000800594c                TIM4_IRQHandler
-                0x000000000800594c                I2C1_EV_IRQHandler
-                0x000000000800594c                DMA1_Channel6_IRQHandler
-                0x000000000800594c                TIM3_IRQHandler
-                0x000000000800594c                RCC_IRQHandler
-                0x000000000800594c                TIM1_TRG_COM_IRQHandler
-                0x000000000800594c                DMA1_Channel1_IRQHandler
-                0x000000000800594c                Default_Handler
-                0x000000000800594c                EXTI15_10_IRQHandler
-                0x000000000800594c                EXTI9_5_IRQHandler
-                0x000000000800594c                SPI2_IRQHandler
-                0x000000000800594c                EXTI4_IRQHandler
-                0x000000000800594c                USB_LP_CAN1_RX0_IRQHandler
-                0x000000000800594c                USB_HP_CAN1_TX_IRQHandler
-                0x000000000800594c                WWDG_IRQHandler
-                0x000000000800594c                TIM1_BRK_IRQHandler
-                0x000000000800594c                EXTI1_IRQHandler
-                0x000000000800594c                I2C2_ER_IRQHandler
-                0x000000000800594c                DMA1_Channel2_IRQHandler
-                0x000000000800594c                CAN1_SCE_IRQHandler
-                0x000000000800594c                FLASH_IRQHandler
-                0x000000000800594c                USART1_IRQHandler
-                0x000000000800594c                I2C1_ER_IRQHandler
-                0x000000000800594c                RTC_Alarm_IRQHandler
- *fill*         0x000000000800594e        0x2 
- .text.cos      0x0000000008005950       0x90 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
-                0x0000000008005950                cos
- .text.sin      0x00000000080059e0       0x90 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
-                0x00000000080059e0                sin
- .text.sqrt     0x0000000008005a70       0xbc /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_sqrt.o)
-                0x0000000008005a70                sqrt
- *fill*         0x0000000008005b2c        0x4 
+                0x0000000008005a1c        0x2 obj/startup.o
+                0x0000000008005a1c                USBWakeUp_IRQHandler
+                0x0000000008005a1c                EXTI2_IRQHandler
+                0x0000000008005a1c                TIM1_CC_IRQHandler
+                0x0000000008005a1c                PVD_IRQHandler
+                0x0000000008005a1c                EXTI3_IRQHandler
+                0x0000000008005a1c                EXTI0_IRQHandler
+                0x0000000008005a1c                I2C2_EV_IRQHandler
+                0x0000000008005a1c                ADC1_2_IRQHandler
+                0x0000000008005a1c                SPI1_IRQHandler
+                0x0000000008005a1c                TAMPER_IRQHandler
+                0x0000000008005a1c                RTC_IRQHandler
+                0x0000000008005a1c                CAN1_RX1_IRQHandler
+                0x0000000008005a1c                TIM4_IRQHandler
+                0x0000000008005a1c                I2C1_EV_IRQHandler
+                0x0000000008005a1c                DMA1_Channel6_IRQHandler
+                0x0000000008005a1c                TIM3_IRQHandler
+                0x0000000008005a1c                RCC_IRQHandler
+                0x0000000008005a1c                TIM1_TRG_COM_IRQHandler
+                0x0000000008005a1c                DMA1_Channel1_IRQHandler
+                0x0000000008005a1c                Default_Handler
+                0x0000000008005a1c                EXTI15_10_IRQHandler
+                0x0000000008005a1c                EXTI9_5_IRQHandler
+                0x0000000008005a1c                SPI2_IRQHandler
+                0x0000000008005a1c                EXTI4_IRQHandler
+                0x0000000008005a1c                USB_LP_CAN1_RX0_IRQHandler
+                0x0000000008005a1c                USB_HP_CAN1_TX_IRQHandler
+                0x0000000008005a1c                WWDG_IRQHandler
+                0x0000000008005a1c                TIM1_BRK_IRQHandler
+                0x0000000008005a1c                EXTI1_IRQHandler
+                0x0000000008005a1c                I2C2_ER_IRQHandler
+                0x0000000008005a1c                CAN1_SCE_IRQHandler
+                0x0000000008005a1c                FLASH_IRQHandler
+                0x0000000008005a1c                USART1_IRQHandler
+                0x0000000008005a1c                I2C1_ER_IRQHandler
+                0x0000000008005a1c                RTC_Alarm_IRQHandler
+ *fill*         0x0000000008005a1e        0x2 
+ .text.cos      0x0000000008005a20       0x90 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
+                0x0000000008005a20                cos
+ .text.sin      0x0000000008005ab0       0x90 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
+                0x0000000008005ab0                sin
+ .text.sqrt     0x0000000008005b40       0xbc /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_sqrt.o)
+                0x0000000008005b40                sqrt
+ *fill*         0x0000000008005bfc        0x4 
  .text.__ieee754_rem_pio2
-                0x0000000008005b30      0x43c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
-                0x0000000008005b30                __ieee754_rem_pio2
+                0x0000000008005c00      0x43c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+                0x0000000008005c00                __ieee754_rem_pio2
  .text.__ieee754_sqrt
-                0x0000000008005f6c      0x184 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
-                0x0000000008005f6c                __ieee754_sqrt
+                0x000000000800603c      0x184 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
+                0x000000000800603c                __ieee754_sqrt
  .text.__kernel_cos
-                0x00000000080060f0      0x248 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
-                0x00000000080060f0                __kernel_cos
+                0x00000000080061c0      0x248 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
+                0x00000000080061c0                __kernel_cos
  .text.__kernel_rem_pio2
-                0x0000000008006338      0x850 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
-                0x0000000008006338                __kernel_rem_pio2
+                0x0000000008006408      0x850 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+                0x0000000008006408                __kernel_rem_pio2
  .text.__kernel_sin
-                0x0000000008006b88      0x16c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
-                0x0000000008006b88                __kernel_sin
- .text.fabs     0x0000000008006cf4        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
-                0x0000000008006cf4                fabs
- *fill*         0x0000000008006cfc        0x4 
- .text.floor    0x0000000008006d00      0x108 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
-                0x0000000008006d00                floor
- .text.matherr  0x0000000008006e08        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
-                0x0000000008006e08                matherr
- *fill*         0x0000000008006e0c        0x4 
- .text.scalbn   0x0000000008006e10       0xe4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
-                0x0000000008006e10                scalbn
+                0x0000000008006c58      0x16c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
+                0x0000000008006c58                __kernel_sin
+ .text.fabs     0x0000000008006dc4        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
+                0x0000000008006dc4                fabs
+ *fill*         0x0000000008006dcc        0x4 
+ .text.floor    0x0000000008006dd0      0x108 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+                0x0000000008006dd0                floor
+ .text.matherr  0x0000000008006ed8        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
+                0x0000000008006ed8                matherr
+ *fill*         0x0000000008006edc        0x4 
+ .text.scalbn   0x0000000008006ee0       0xe4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
+                0x0000000008006ee0                scalbn
  .text.copysign
-                0x0000000008006ef4       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
-                0x0000000008006ef4                copysign
- .text.__errno  0x0000000008006f04        0xc /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-errno.o)
-                0x0000000008006f04                __errno
+                0x0000000008006fc4       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
+                0x0000000008006fc4                copysign
+ .text.__errno  0x0000000008006fd4        0xc /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-errno.o)
+                0x0000000008006fd4                __errno
  .text.__libc_init_array
-                0x0000000008006f10       0x48 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-init.o)
-                0x0000000008006f10                __libc_init_array
- .text.memcpy   0x0000000008006f58       0x16 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008006f58                memcpy
+                0x0000000008006fe0       0x48 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-init.o)
+                0x0000000008006fe0                __libc_init_array
+ .text.memcpy   0x0000000008007028       0x16 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008007028                memcpy
  *(.glue_7)
- .glue_7        0x0000000008006f6e        0x0 linker stubs
+ .glue_7        0x000000000800703e        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008006f6e        0x0 linker stubs
+ .glue_7t       0x000000000800703e        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0000000008006f6e        0x2 
- .eh_frame      0x0000000008006f70        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
+ *fill*         0x000000000800703e        0x2 
+ .eh_frame      0x0000000008007040        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
  *(.init)
- .init          0x0000000008006f70        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
-                0x0000000008006f70                _init
- .init          0x0000000008006f74        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
+ .init          0x0000000008007040        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
+                0x0000000008007040                _init
+ .init          0x0000000008007044        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
  *(.fini)
- .fini          0x0000000008006f7c        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
-                0x0000000008006f7c                _fini
- .fini          0x0000000008006f80        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
-                0x0000000008006f88                . = ALIGN (0x4)
-                0x0000000008006f88                _etext = .
+ .fini          0x000000000800704c        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o
+                0x000000000800704c                _fini
+ .fini          0x0000000008007050        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
+                0x0000000008007058                . = ALIGN (0x4)
+                0x0000000008007058                _etext = .
 
-.vfp11_veneer   0x0000000008006f88        0x0
- .vfp11_veneer  0x0000000008006f88        0x0 linker stubs
+.vfp11_veneer   0x0000000008007058        0x0
+ .vfp11_veneer  0x0000000008007058        0x0 linker stubs
 
-.v4_bx          0x0000000008006f88        0x0
- .v4_bx         0x0000000008006f88        0x0 linker stubs
+.v4_bx          0x0000000008007058        0x0
+ .v4_bx         0x0000000008007058        0x0 linker stubs
 
-.iplt           0x0000000008006f88        0x0
- .iplt          0x0000000008006f88        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
+.iplt           0x0000000008007058        0x0
+ .iplt          0x0000000008007058        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
 
-.rodata         0x0000000008006f88      0xae8
-                0x0000000008006f88                . = ALIGN (0x4)
+.rodata         0x0000000008007058      0xae8
+                0x0000000008007058                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008006f88       0x30 obj/app.o
- .rodata        0x0000000008006fb8       0x12 obj/stm32f1xx_hal_rcc.o
+ .rodata        0x0000000008007058       0x30 obj/app.o
+ .rodata        0x0000000008007088       0x12 obj/stm32f1xx_hal_rcc.o
  *(.rodata*)
- *fill*         0x0000000008006fca        0x2 
+ *fill*         0x000000000800709a        0x2 
  .rodata.odmetry_position.str1.4
-                0x0000000008006fcc       0x2c obj/app.o
+                0x000000000800709c       0x2c obj/app.o
  .rodata.defaultad
-                0x0000000008006ff8      0x144 obj/constManager.o
+                0x00000000080070c8      0x144 obj/constManager.o
  .rodata.AHBPrescTable
-                0x000000000800713c       0x10 obj/system_stm32f1xx.o
-                0x000000000800713c                AHBPrescTable
+                0x000000000800720c       0x10 obj/system_stm32f1xx.o
+                0x000000000800720c                AHBPrescTable
  .rodata.APBPrescTable
-                0x000000000800714c        0x8 obj/system_stm32f1xx.o
-                0x000000000800714c                APBPrescTable
+                0x000000000800721c        0x8 obj/system_stm32f1xx.o
+                0x000000000800721c                APBPrescTable
  .rodata.HAL_NVIC_SetPriorityGrouping.str1.4
-                0x0000000008007154       0x38 obj/stm32f1xx_hal_cortex.o
+                0x0000000008007224       0x38 obj/stm32f1xx_hal_cortex.o
  .rodata.HAL_DMA_Init.str1.4
-                0x000000000800718c       0x35 obj/stm32f1xx_hal_dma.o
- *fill*         0x00000000080071c1        0x3 
+                0x000000000800725c       0x35 obj/stm32f1xx_hal_dma.o
+ *fill*         0x0000000008007291        0x3 
  .rodata.HAL_GPIO_Init.str1.4
-                0x00000000080071c4       0x36 obj/stm32f1xx_hal_gpio.o
- *fill*         0x00000000080071fa        0x2 
+                0x0000000008007294       0x36 obj/stm32f1xx_hal_gpio.o
+ *fill*         0x00000000080072ca        0x2 
  .rodata.HAL_I2C_Init.str1.4
-                0x00000000080071fc       0x35 obj/stm32f1xx_hal_i2c.o
- *fill*         0x0000000008007231        0x3 
+                0x00000000080072cc       0x35 obj/stm32f1xx_hal_i2c.o
+ *fill*         0x0000000008007301        0x3 
  .rodata.HAL_IWDG_Init.str1.4
-                0x0000000008007234       0x36 obj/stm32f1xx_hal_iwdg.o
- *fill*         0x000000000800726a        0x2 
+                0x0000000008007304       0x36 obj/stm32f1xx_hal_iwdg.o
+ *fill*         0x000000000800733a        0x2 
  .rodata.HAL_RCC_OscConfig.str1.4
-                0x000000000800726c       0x35 obj/stm32f1xx_hal_rcc.o
- *fill*         0x00000000080072a1        0x3 
+                0x000000000800733c       0x35 obj/stm32f1xx_hal_rcc.o
+ *fill*         0x0000000008007371        0x3 
  .rodata.HAL_RCCEx_PeriphCLKConfig.str1.4
-                0x00000000080072a4       0x38 obj/stm32f1xx_hal_rcc_ex.o
+                0x0000000008007374       0x38 obj/stm32f1xx_hal_rcc_ex.o
  .rodata.TIM_OC1_SetConfig.str1.4
-                0x00000000080072dc       0x35 obj/stm32f1xx_hal_tim.o
- *fill*         0x0000000008007311        0x3 
+                0x00000000080073ac       0x35 obj/stm32f1xx_hal_tim.o
+ *fill*         0x00000000080073e1        0x3 
  .rodata.HAL_TIMEx_HallSensor_Init.str1.4
-                0x0000000008007314       0x38 obj/stm32f1xx_hal_tim_ex.o
+                0x00000000080073e4       0x38 obj/stm32f1xx_hal_tim_ex.o
  .rodata.UART_SetConfig.str1.4
-                0x000000000800734c       0x36 obj/stm32f1xx_hal_uart.o
- *fill*         0x0000000008007382        0x2 
+                0x000000000800741c       0x36 obj/stm32f1xx_hal_uart.o
+ *fill*         0x0000000008007452        0x2 
  .rodata.MW_EncoderInit.str1.4
-                0x0000000008007384       0x2e obj/MW_ENCODER.o
- *fill*         0x00000000080073b2        0x2 
+                0x0000000008007454       0x2e obj/MW_ENCODER.o
+ *fill*         0x0000000008007482        0x2 
  .rodata.encoderid
-                0x00000000080073b4        0x8 obj/MW_ENCODER.o
+                0x0000000008007484        0x8 obj/MW_ENCODER.o
  .rodata.MW_GPIOInit.str1.4
-                0x00000000080073bc       0x28 obj/MW_GPIO.o
+                0x000000000800748c       0x28 obj/MW_GPIO.o
  .rodata.gpioid
-                0x00000000080073e4       0x10 obj/MW_GPIO.o
+                0x00000000080074b4       0x10 obj/MW_GPIO.o
  .rodata.MW_SetI2CClockSpeed.str1.4
-                0x00000000080073f4       0x26 obj/MW_I2C.o
- *fill*         0x000000000800741a        0x2 
- .rodata.i2cid  0x000000000800741c        0x8 obj/MW_I2C.o
+                0x00000000080074c4       0x26 obj/MW_I2C.o
+ *fill*         0x00000000080074ea        0x2 
+ .rodata.i2cid  0x00000000080074ec        0x8 obj/MW_I2C.o
  .rodata.MW_USARTSetBaudRate.str1.4
-                0x0000000008007424       0x29 obj/MW_USART.o
- *fill*         0x000000000800744d        0x3 
+                0x00000000080074f4       0x29 obj/MW_USART.o
+ *fill*         0x000000000800751d        0x3 
  .rodata.uartid
-                0x0000000008007450        0xc obj/MW_USART.o
+                0x0000000008007520        0xc obj/MW_USART.o
  .rodata._msg.str1.4
-                0x000000000800745c       0x10 obj/message.o
+                0x000000000800752c       0x10 obj/message.o
                                          0x12 (size before relaxing)
  .rodata.DD_ABHandPrint.str1.4
-                0x000000000800746c       0x10 obj/DD_AB.o
+                0x000000000800753c       0x10 obj/DD_AB.o
  .rodata.DD_encoderprint.str1.4
-                0x000000000800747c        0xf obj/DD_ENCODER.o
- *fill*         0x000000000800748b        0x1 
+                0x000000000800754c        0xf obj/DD_ENCODER.o
+ *fill*         0x000000000800755b        0x1 
  .rodata.DD_I2C1Send.str1.4
-                0x000000000800748c       0x3c obj/DD_Gene.o
+                0x000000000800755c       0x3c obj/DD_Gene.o
  .rodata.DD_I2C2Receive.str1.4
-                0x00000000080074c8       0x57 obj/DD_Gene.o
- *fill*         0x000000000800751f        0x1 
+                0x0000000008007598       0x57 obj/DD_Gene.o
+ *fill*         0x00000000080075ef        0x1 
  .rodata.DD_I2C2Send.str1.4
-                0x0000000008007520       0x5d obj/DD_Gene.o
- *fill*         0x000000000800757d        0x3 
+                0x00000000080075f0       0x5d obj/DD_Gene.o
+ *fill*         0x000000000800764d        0x3 
  .rodata.DD_initialize.str1.4
-                0x0000000008007580       0x40 obj/DD_Gene.o
- .rodata.__FUNCTION__.8085
-                0x00000000080075c0        0xc obj/DD_Gene.o
- .rodata.__FUNCTION__.8092
-                0x00000000080075cc        0xc obj/DD_Gene.o
- .rodata.__FUNCTION__.8106
-                0x00000000080075d8        0xf obj/DD_Gene.o
- *fill*         0x00000000080075e7        0x1 
- .rodata.__FUNCTION__.8141
-                0x00000000080075e8        0xe obj/DD_Gene.o
- *fill*         0x00000000080075f6        0x2 
+                0x0000000008007650       0x40 obj/DD_Gene.o
+ .rodata.__FUNCTION__.8098
+                0x0000000008007690        0xc obj/DD_Gene.o
+ .rodata.__FUNCTION__.8105
+                0x000000000800769c        0xc obj/DD_Gene.o
+ .rodata.__FUNCTION__.8119
+                0x00000000080076a8        0xf obj/DD_Gene.o
+ *fill*         0x00000000080076b7        0x1 
+ .rodata.__FUNCTION__.8154
+                0x00000000080076b8        0xe obj/DD_Gene.o
+ *fill*         0x00000000080076c6        0x2 
  .rodata.DD_MDHandPrint.str1.4
-                0x00000000080075f8       0x25 obj/DD_MD.o
- *fill*         0x000000000800761d        0x3 
+                0x00000000080076c8       0x25 obj/DD_MD.o
+ *fill*         0x00000000080076ed        0x3 
  .rodata.DD_send2MD.str1.4
-                0x0000000008007620       0x17 obj/DD_MD.o
+                0x00000000080076f0       0x17 obj/DD_MD.o
                                          0x1c (size before relaxing)
- *fill*         0x0000000008007637        0x1 
- .rodata.__FUNCTION__.8047
-                0x0000000008007638        0xb obj/DD_MD.o
- *fill*         0x0000000008007643        0x1 
- .rodata.DD_RCInit.str1.4
-                0x0000000008007644        0x3 obj/DD_RC.o
-                                          0xb (size before relaxing)
- *fill*         0x0000000008007647        0x1 
- .rodata.DD_RCPrint.str1.4
-                0x0000000008007648       0x99 obj/DD_RC.o
-                                         0x9d (size before relaxing)
- *fill*         0x00000000080076e1        0x3 
- .rodata.DD_SSHandPrint.str1.4
-                0x00000000080076e4       0x27 obj/DD_SS.o
-                                         0x2a (size before relaxing)
- *fill*         0x000000000800770b        0x1 
- .rodata.HAL_UART_RxCpltCallback.str1.4
-                0x000000000800770c        0x7 obj/SystemTaskManager.o
+ *fill*         0x0000000008007707        0x1 
+ .rodata.__FUNCTION__.8060
+                0x0000000008007708        0xb obj/DD_MD.o
  *fill*         0x0000000008007713        0x1 
+ .rodata.DD_RCInit.str1.4
+                0x0000000008007714        0x3 obj/DD_RC.o
+                                          0xb (size before relaxing)
+ *fill*         0x0000000008007717        0x1 
+ .rodata.DD_RCPrint.str1.4
+                0x0000000008007718       0x99 obj/DD_RC.o
+                                         0x9d (size before relaxing)
+ *fill*         0x00000000080077b1        0x3 
+ .rodata.DD_SSHandPrint.str1.4
+                0x00000000080077b4       0x27 obj/DD_SS.o
+                                         0x2a (size before relaxing)
+ *fill*         0x00000000080077db        0x1 
+ .rodata.HAL_UART_RxCpltCallback.str1.4
+                0x00000000080077dc        0x7 obj/SystemTaskManager.o
+ *fill*         0x00000000080077e3        0x1 
  .rodata.SY_clockInit.str1.4
-                0x0000000008007714       0x3e obj/SystemTaskManager.o
+                0x00000000080077e4       0x3e obj/SystemTaskManager.o
                                          0x42 (size before relaxing)
- *fill*         0x0000000008007752        0x2 
+ *fill*         0x0000000008007822        0x2 
  .rodata.SY_init.str1.4
-                0x0000000008007754       0x75 obj/SystemTaskManager.o
- *fill*         0x00000000080077c9        0x3 
- .rodata.__FUNCTION__.8184
-                0x00000000080077cc        0x5 obj/SystemTaskManager.o
- *fill*         0x00000000080077d1        0x3 
- .rodata.__FUNCTION__.8223
-                0x00000000080077d4        0x8 obj/SystemTaskManager.o
- .rodata.__FUNCTION__.8230
-                0x00000000080077dc        0xd obj/SystemTaskManager.o
- *fill*         0x00000000080077e9        0x3 
- .rodata.__FUNCTION__.8241
-                0x00000000080077ec       0x18 obj/SystemTaskManager.o
+                0x0000000008007824       0x75 obj/SystemTaskManager.o
+ *fill*         0x0000000008007899        0x3 
+ .rodata.__FUNCTION__.8197
+                0x000000000800789c        0x5 obj/SystemTaskManager.o
+ *fill*         0x00000000080078a1        0x3 
+ .rodata.__FUNCTION__.8236
+                0x00000000080078a4        0x8 obj/SystemTaskManager.o
+ .rodata.__FUNCTION__.8243
+                0x00000000080078ac        0xd obj/SystemTaskManager.o
+ *fill*         0x00000000080078b9        0x3 
+ .rodata.__FUNCTION__.8254
+                0x00000000080078bc       0x18 obj/SystemTaskManager.o
  .rodata.main.str1.4
-                0x0000000008007804       0x85 obj/SystemTaskManager.o
-                                         0x8d (size before relaxing)
- *fill*         0x0000000008007889        0x3 
+                0x00000000080078d4       0x85 obj/SystemTaskManager.o
+                                         0x91 (size before relaxing)
+ *fill*         0x0000000008007959        0x3 
  .rodata.sqrt.str1.4
-                0x000000000800788c        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_sqrt.o)
+                0x000000000800795c        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_sqrt.o)
                                           0x5 (size before relaxing)
  .rodata.npio2_hw
-                0x0000000008007894       0x80 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+                0x0000000008007964       0x80 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
  .rodata.two_over_pi
-                0x0000000008007914      0x108 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
- *fill*         0x0000000008007a1c        0x4 
- .rodata.PIo2   0x0000000008007a20       0x40 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+                0x00000000080079e4      0x108 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+ *fill*         0x0000000008007aec        0x4 
+ .rodata.PIo2   0x0000000008007af0       0x40 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
  .rodata.init_jk
-                0x0000000008007a60       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
-                0x0000000008007a70                . = ALIGN (0x4)
+                0x0000000008007b30       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+                0x0000000008007b40                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008007a70        0x0
- .rel.iplt      0x0000000008007a70        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
+.rel.dyn        0x0000000008007b40        0x0
+ .rel.iplt      0x0000000008007b40        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008007a70        0x0
-                0x0000000008007a70                __exidx_start = .
+.ARM            0x0000000008007b40        0x0
+                0x0000000008007b40                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008007a70                __exidx_end = .
+                0x0000000008007b40                __exidx_end = .
 
-.preinit_array  0x0000000008007a70        0x0
-                0x0000000008007a70                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008007b40        0x0
+                0x0000000008007b40                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008007a70                PROVIDE (__preinit_array_end = .)
+                0x0000000008007b40                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008007a70        0x4
-                0x0000000008007a70                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008007b40        0x4
+                0x0000000008007b40                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008007a70        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
-                0x0000000008007a74                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008007b40        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
+                0x0000000008007b44                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008007a74        0x4
+.fini_array     0x0000000008007b44        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008007a74        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
+ .fini_array    0x0000000008007b44        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008007a78                _sidata = LOADADDR (.data)
+                0x0000000008007b48                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x2cc load address 0x0000000008007a78
+.data           0x0000000020000000      0x2cc load address 0x0000000008007b48
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -11406,10 +11409,12 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7
  *fill*         0x000000002000025f        0x1 
  .data.is_not_avaiable
                 0x0000000020000260        0x4 obj/DD_RC.o
+ .data.raspi_control_flag
+                0x0000000020000264        0x1 obj/SystemTaskManager.o
  .data.__fdlib_version
-                0x0000000020000264        0x1 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
-                0x0000000020000264                __fdlib_version
- *fill*         0x0000000020000265        0x3 
+                0x0000000020000265        0x1 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
+                0x0000000020000265                __fdlib_version
+ *fill*         0x0000000020000266        0x2 
  .data._impure_ptr
                 0x0000000020000268        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-impure.o)
                 0x0000000020000268                _impure_ptr
@@ -11418,105 +11423,107 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7
                 0x00000000200002cc                . = ALIGN (0x4)
                 0x00000000200002cc                _edata = .
 
-.igot.plt       0x00000000200002cc        0x0 load address 0x0000000008007d44
+.igot.plt       0x00000000200002cc        0x0 load address 0x0000000008007e14
  .igot.plt      0x00000000200002cc        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
                 0x00000000200002cc                . = ALIGN (0x4)
 
-.bss            0x00000000200002cc      0x7c0 load address 0x0000000008007d44
+.bss            0x00000000200002cc      0x800 load address 0x0000000008007e14
                 0x00000000200002cc                _sbss = .
                 0x00000000200002cc                __bss_start__ = _sbss
  *(.bss)
  .bss           0x00000000200002cc       0x1c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o
  *(.bss*)
- .bss.abs_degree_to_target.8702
+ .bss.abs_degree_to_target.8719
                 0x00000000200002e8        0x4 obj/app.o
- .bss.adjust.8728
+ .bss.adjust.8753
                 0x00000000200002ec        0xc obj/app.o
- .bss.circle_flag.8680
+ .bss.circle_flag.8697
                 0x00000000200002f8        0x1 obj/app.o
- .bss.cross_flag.8681
+ .bss.cross_flag.8698
                 0x00000000200002f9        0x1 obj/app.o
  *fill*         0x00000000200002fa        0x2 
- .bss.now_degree.8700
+ .bss.now_degree.8717
                 0x00000000200002fc        0x4 obj/app.o
- .bss.re_now_position.8693
-                0x0000000020000300        0x8 obj/app.o
- .bss.recent_input_max_duty.8699
-                0x0000000020000308        0x4 obj/app.o
- .bss.target_count.8679
-                0x000000002000030c        0x4 obj/app.o
- .bss.target_degree.8701
-                0x0000000020000310        0x4 obj/app.o
- .bss.g_adjust  0x0000000020000314      0x144 obj/constManager.o
-                0x0000000020000314                g_adjust
- .bss.g_c_data  0x0000000020000458       0x48 obj/constManager.o
-                0x0000000020000458                g_c_data
+ .bss.now_position.8703
+                0x0000000020000300        0xc obj/app.o
+ .bss.re_now_position.8710
+                0x000000002000030c        0x8 obj/app.o
+ .bss.recent_input_max_duty.8716
+                0x0000000020000314        0x4 obj/app.o
+ .bss.target_count.8696
+                0x0000000020000318        0x4 obj/app.o
+ .bss.target_degree.8718
+                0x000000002000031c        0x4 obj/app.o
+ .bss.g_adjust  0x0000000020000320      0x144 obj/constManager.o
+                0x0000000020000320                g_adjust
+ .bss.g_c_data  0x0000000020000464       0x48 obj/constManager.o
+                0x0000000020000464                g_c_data
  .bss.hdma_irx.7389
-                0x00000000200004a0       0x38 obj/msp.o
+                0x00000000200004ac       0x38 obj/msp.o
  .bss.hdma_itx.7388
-                0x00000000200004d8       0x38 obj/msp.o
+                0x00000000200004e4       0x38 obj/msp.o
  .bss.hdma_rx.7431
-                0x0000000020000510       0x38 obj/msp.o
+                0x000000002000051c       0x38 obj/msp.o
  .bss.hdma_tx.7427
-                0x0000000020000548       0x38 obj/msp.o
- .bss.uwTick    0x0000000020000580        0x4 obj/stm32f1xx_hal.o
+                0x0000000020000554       0x38 obj/msp.o
+ .bss.hdma_tx.7432
+                0x000000002000058c       0x38 obj/msp.o
+ .bss.uwTick    0x00000000200005c4        0x4 obj/stm32f1xx_hal.o
  .bss.GPIO_InitStruct
-                0x0000000020000584       0x10 obj/MW_GPIO.o
- .bss.buff      0x0000000020000594      0x400 obj/message.o
- .bss.outptr    0x0000000020000994        0x4 obj/xprintf.o
-                0x0000000020000994                outptr
+                0x00000000200005c8       0x10 obj/MW_GPIO.o
+ .bss.buff      0x00000000200005d8      0x400 obj/message.o
+ .bss.outptr    0x00000000200009d8        0x4 obj/xprintf.o
+                0x00000000200009d8                outptr
  .bss.xfunc_out
-                0x0000000020000998        0x4 obj/xprintf.o
-                0x0000000020000998                xfunc_out
- .bss.encval1   0x000000002000099c        0x4 obj/DD_ENCODER.o
- .bss.encval2   0x00000000200009a0        0x4 obj/DD_ENCODER.o
- .bss.count.8112
-                0x00000000200009a4        0x4 obj/DD_Gene.o
- .bss.ip        0x00000000200009a8        0x4 obj/DD_RC.o
- .bss.rcv_data  0x00000000200009ac        0x8 obj/DD_RC.o
+                0x00000000200009dc        0x4 obj/xprintf.o
+                0x00000000200009dc                xfunc_out
+ .bss.encval1   0x00000000200009e0        0x4 obj/DD_ENCODER.o
+ .bss.encval2   0x00000000200009e4        0x4 obj/DD_ENCODER.o
+ .bss.count.8125
+                0x00000000200009e8        0x4 obj/DD_Gene.o
+ .bss.ip        0x00000000200009ec        0x4 obj/DD_RC.o
+ .bss.rcv_data  0x00000000200009f0        0x8 obj/DD_RC.o
  .bss.ReadPoint
-                0x00000000200009b4        0x4 obj/DD_SS.o
- .bss.RingBuf   0x00000000200009b8       0x80 obj/DD_SS.o
+                0x00000000200009f8        0x4 obj/DD_SS.o
+ .bss.RingBuf   0x00000000200009fc       0x80 obj/DD_SS.o
  .bss.WritePoint
-                0x0000000020000a38        0x4 obj/DD_SS.o
+                0x0000000020000a7c        0x4 obj/DD_SS.o
  .bss.encoder_wait
-                0x0000000020000a3c       0x20 obj/DD_SS.o
- .bss.phase     0x0000000020000a5c        0x1 obj/DD_SS.o
+                0x0000000020000a80       0x20 obj/DD_SS.o
+ .bss.phase     0x0000000020000aa0        0x1 obj/DD_SS.o
  .bss.temp_data
-                0x0000000020000a5d        0x1 obj/DD_SS.o
- *fill*         0x0000000020000a5e        0x2 
+                0x0000000020000aa1        0x1 obj/DD_SS.o
+ *fill*         0x0000000020000aa2        0x2 
  .bss.count_for_rc
-                0x0000000020000a60        0x4 obj/SystemTaskManager.o
+                0x0000000020000aa4        0x4 obj/SystemTaskManager.o
  .bss.g_SY_system_counter
-                0x0000000020000a64        0x4 obj/SystemTaskManager.o
-                0x0000000020000a64                g_SY_system_counter
+                0x0000000020000aa8        0x4 obj/SystemTaskManager.o
+                0x0000000020000aa8                g_SY_system_counter
  .bss.g_rc_data
-                0x0000000020000a68        0x8 obj/SystemTaskManager.o
-                0x0000000020000a68                g_rc_data
+                0x0000000020000aac        0x8 obj/SystemTaskManager.o
+                0x0000000020000aac                g_rc_data
  .bss.raspi_control_rcv
-                0x0000000020000a70        0x8 obj/SystemTaskManager.o
-                0x0000000020000a70                raspi_control_rcv
+                0x0000000020000ab4        0x8 obj/SystemTaskManager.o
+                0x0000000020000ab4                raspi_control_rcv
  .bss.raspi_control_rcv_data
-                0x0000000020000a78        0x8 obj/SystemTaskManager.o
- .bss.raspi_control_wait_count
-                0x0000000020000a80        0x4 obj/SystemTaskManager.o
- .bss.rc_rcv    0x0000000020000a84        0x8 obj/SystemTaskManager.o
+                0x0000000020000abc        0x8 obj/SystemTaskManager.o
+ .bss.rc_rcv    0x0000000020000ac4        0x8 obj/SystemTaskManager.o
  *(COMMON)
-                0x0000000020000a8c                . = ALIGN (0x4)
-                0x0000000020000a8c                _ebss = .
-                0x0000000020000a8c                __bss_end__ = _ebss
+                0x0000000020000acc                . = ALIGN (0x4)
+                0x0000000020000acc                _ebss = .
+                0x0000000020000acc                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000a8c      0x604 load address 0x0000000008007d44
-                0x0000000020000a90                . = ALIGN (0x8)
- *fill*         0x0000000020000a8c        0x4 
+                0x0000000020000acc      0x604 load address 0x0000000008007e14
+                0x0000000020000ad0                . = ALIGN (0x8)
+ *fill*         0x0000000020000acc        0x4 
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x0000000020000c90                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000a90      0x200 
-                0x0000000020001090                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000c90      0x400 
-                0x0000000020001090                . = ALIGN (0x8)
+                0x0000000020000cd0                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000ad0      0x200 
+                0x00000000200010d0                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000cd0      0x400 
+                0x00000000200010d0                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -11648,40 +11655,40 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7
                 0x0000000000000ab9       0x1d /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
 OUTPUT(bin/Test.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x2b5d4
- .debug_info    0x0000000000000000     0x1251 obj/app.o
- .debug_info    0x0000000000001251      0x967 obj/assert.o
- .debug_info    0x0000000000001bb8     0x18c8 obj/constManager.o
- .debug_info    0x0000000000003480      0xb92 obj/deviceDefinition.o
- .debug_info    0x0000000000004012     0x23b5 obj/msp.o
- .debug_info    0x00000000000063c7     0x117b obj/stm32f1xx_it.o
- .debug_info    0x0000000000007542      0x3ec obj/system_stm32f1xx.o
- .debug_info    0x000000000000792e      0xf0e obj/stm32f1xx_hal.o
- .debug_info    0x000000000000883c     0x1550 obj/stm32f1xx_hal_cortex.o
- .debug_info    0x0000000000009d8c      0xffa obj/stm32f1xx_hal_dma.o
- .debug_info    0x000000000000ad86     0x1080 obj/stm32f1xx_hal_gpio.o
- .debug_info    0x000000000000be06     0x34cf obj/stm32f1xx_hal_i2c.o
- .debug_info    0x000000000000f2d5      0xc15 obj/stm32f1xx_hal_iwdg.o
- .debug_info    0x000000000000feea     0x1d94 obj/stm32f1xx_hal_rcc.o
- .debug_info    0x0000000000011c7e      0xe68 obj/stm32f1xx_hal_rcc_ex.o
- .debug_info    0x0000000000012ae6     0x4b8a obj/stm32f1xx_hal_tim.o
- .debug_info    0x0000000000017670     0x2002 obj/stm32f1xx_hal_tim_ex.o
- .debug_info    0x0000000000019672     0x1c43 obj/stm32f1xx_hal_uart.o
- .debug_info    0x000000000001b2b5     0x1038 obj/MW_ENCODER.o
- .debug_info    0x000000000001c2ed      0xd24 obj/MW_GPIO.o
- .debug_info    0x000000000001d011     0x10be obj/MW_I2C.o
- .debug_info    0x000000000001e0cf      0xba9 obj/MW_IWDG.o
- .debug_info    0x000000000001ec78     0x1360 obj/MW_TIM.o
- .debug_info    0x000000000001ffd8     0x10bd obj/MW_USART.o
- .debug_info    0x0000000000021095     0x1088 obj/message.o
- .debug_info    0x000000000002211d     0x1373 obj/xprintf.o
- .debug_info    0x0000000000023490      0xbae obj/DD_AB.o
- .debug_info    0x000000000002403e      0xcaf obj/DD_ENCODER.o
- .debug_info    0x0000000000024ced     0x1595 obj/DD_Gene.o
- .debug_info    0x0000000000026282      0xc8c obj/DD_MD.o
- .debug_info    0x0000000000026f0e     0x1662 obj/DD_RC.o
- .debug_info    0x0000000000028570      0xfd9 obj/DD_SS.o
- .debug_info    0x0000000000029549     0x208b obj/SystemTaskManager.o
+.debug_info     0x0000000000000000    0x2b675
+ .debug_info    0x0000000000000000     0x1264 obj/app.o
+ .debug_info    0x0000000000001264      0x967 obj/assert.o
+ .debug_info    0x0000000000001bcb     0x18c8 obj/constManager.o
+ .debug_info    0x0000000000003493      0xb92 obj/deviceDefinition.o
+ .debug_info    0x0000000000004025     0x240d obj/msp.o
+ .debug_info    0x0000000000006432     0x119a obj/stm32f1xx_it.o
+ .debug_info    0x00000000000075cc      0x3ec obj/system_stm32f1xx.o
+ .debug_info    0x00000000000079b8      0xf0e obj/stm32f1xx_hal.o
+ .debug_info    0x00000000000088c6     0x1550 obj/stm32f1xx_hal_cortex.o
+ .debug_info    0x0000000000009e16      0xffa obj/stm32f1xx_hal_dma.o
+ .debug_info    0x000000000000ae10     0x1080 obj/stm32f1xx_hal_gpio.o
+ .debug_info    0x000000000000be90     0x34cf obj/stm32f1xx_hal_i2c.o
+ .debug_info    0x000000000000f35f      0xc15 obj/stm32f1xx_hal_iwdg.o
+ .debug_info    0x000000000000ff74     0x1d94 obj/stm32f1xx_hal_rcc.o
+ .debug_info    0x0000000000011d08      0xe68 obj/stm32f1xx_hal_rcc_ex.o
+ .debug_info    0x0000000000012b70     0x4b8a obj/stm32f1xx_hal_tim.o
+ .debug_info    0x00000000000176fa     0x2002 obj/stm32f1xx_hal_tim_ex.o
+ .debug_info    0x00000000000196fc     0x1c43 obj/stm32f1xx_hal_uart.o
+ .debug_info    0x000000000001b33f     0x1038 obj/MW_ENCODER.o
+ .debug_info    0x000000000001c377      0xd24 obj/MW_GPIO.o
+ .debug_info    0x000000000001d09b     0x10be obj/MW_I2C.o
+ .debug_info    0x000000000001e159      0xba9 obj/MW_IWDG.o
+ .debug_info    0x000000000001ed02     0x1360 obj/MW_TIM.o
+ .debug_info    0x0000000000020062     0x10bd obj/MW_USART.o
+ .debug_info    0x000000000002111f     0x1088 obj/message.o
+ .debug_info    0x00000000000221a7     0x1373 obj/xprintf.o
+ .debug_info    0x000000000002351a      0xbae obj/DD_AB.o
+ .debug_info    0x00000000000240c8      0xcaf obj/DD_ENCODER.o
+ .debug_info    0x0000000000024d77     0x1595 obj/DD_Gene.o
+ .debug_info    0x000000000002630c      0xc8c obj/DD_MD.o
+ .debug_info    0x0000000000026f98     0x1662 obj/DD_RC.o
+ .debug_info    0x00000000000285fa      0xfd9 obj/DD_SS.o
+ .debug_info    0x00000000000295d3     0x20a2 obj/SystemTaskManager.o
 
 .debug_abbrev   0x0000000000000000     0x591b
  .debug_abbrev  0x0000000000000000      0x363 obj/app.o
@@ -11718,37 +11725,37 @@ OUTPUT(bin/Test.elf elf32-littlearm)
  .debug_abbrev  0x00000000000052c9      0x2f0 obj/DD_SS.o
  .debug_abbrev  0x00000000000055b9      0x362 obj/SystemTaskManager.o
 
-.debug_loc      0x0000000000000000     0xbcec
- .debug_loc     0x0000000000000000      0x4b1 obj/app.o
- .debug_loc     0x00000000000004b1      0x371 obj/constManager.o
- .debug_loc     0x0000000000000822      0x3ac obj/msp.o
- .debug_loc     0x0000000000000bce       0xdf obj/system_stm32f1xx.o
- .debug_loc     0x0000000000000cad       0x81 obj/stm32f1xx_hal.o
- .debug_loc     0x0000000000000d2e      0x6db obj/stm32f1xx_hal_cortex.o
- .debug_loc     0x0000000000001409      0x4fc obj/stm32f1xx_hal_dma.o
- .debug_loc     0x0000000000001905      0x571 obj/stm32f1xx_hal_gpio.o
- .debug_loc     0x0000000000001e76     0x2d80 obj/stm32f1xx_hal_i2c.o
- .debug_loc     0x0000000000004bf6      0x10d obj/stm32f1xx_hal_iwdg.o
- .debug_loc     0x0000000000004d03      0x91b obj/stm32f1xx_hal_rcc.o
- .debug_loc     0x000000000000561e      0x333 obj/stm32f1xx_hal_rcc_ex.o
- .debug_loc     0x0000000000005951     0x2704 obj/stm32f1xx_hal_tim.o
- .debug_loc     0x0000000000008055      0xade obj/stm32f1xx_hal_tim_ex.o
- .debug_loc     0x0000000000008b33     0x116d obj/stm32f1xx_hal_uart.o
- .debug_loc     0x0000000000009ca0       0x9d obj/MW_ENCODER.o
- .debug_loc     0x0000000000009d3d      0x1ca obj/MW_GPIO.o
- .debug_loc     0x0000000000009f07      0x2dd obj/MW_I2C.o
- .debug_loc     0x000000000000a1e4      0x2b8 obj/MW_TIM.o
- .debug_loc     0x000000000000a49c      0x1b8 obj/MW_USART.o
- .debug_loc     0x000000000000a654       0xb5 obj/message.o
- .debug_loc     0x000000000000a709      0x907 obj/xprintf.o
- .debug_loc     0x000000000000b010       0x42 obj/DD_AB.o
- .debug_loc     0x000000000000b052      0x338 obj/DD_Gene.o
- .debug_loc     0x000000000000b38a       0x52 obj/DD_MD.o
- .debug_loc     0x000000000000b3dc      0x4b0 obj/DD_RC.o
- .debug_loc     0x000000000000b88c      0x285 obj/DD_SS.o
- .debug_loc     0x000000000000bb11      0x1db obj/SystemTaskManager.o
+.debug_loc      0x0000000000000000     0xbd73
+ .debug_loc     0x0000000000000000      0x52d obj/app.o
+ .debug_loc     0x000000000000052d      0x371 obj/constManager.o
+ .debug_loc     0x000000000000089e      0x3ac obj/msp.o
+ .debug_loc     0x0000000000000c4a       0xdf obj/system_stm32f1xx.o
+ .debug_loc     0x0000000000000d29       0x81 obj/stm32f1xx_hal.o
+ .debug_loc     0x0000000000000daa      0x6db obj/stm32f1xx_hal_cortex.o
+ .debug_loc     0x0000000000001485      0x4fc obj/stm32f1xx_hal_dma.o
+ .debug_loc     0x0000000000001981      0x571 obj/stm32f1xx_hal_gpio.o
+ .debug_loc     0x0000000000001ef2     0x2d80 obj/stm32f1xx_hal_i2c.o
+ .debug_loc     0x0000000000004c72      0x10d obj/stm32f1xx_hal_iwdg.o
+ .debug_loc     0x0000000000004d7f      0x91b obj/stm32f1xx_hal_rcc.o
+ .debug_loc     0x000000000000569a      0x333 obj/stm32f1xx_hal_rcc_ex.o
+ .debug_loc     0x00000000000059cd     0x2704 obj/stm32f1xx_hal_tim.o
+ .debug_loc     0x00000000000080d1      0xade obj/stm32f1xx_hal_tim_ex.o
+ .debug_loc     0x0000000000008baf     0x116d obj/stm32f1xx_hal_uart.o
+ .debug_loc     0x0000000000009d1c       0x9d obj/MW_ENCODER.o
+ .debug_loc     0x0000000000009db9      0x1ca obj/MW_GPIO.o
+ .debug_loc     0x0000000000009f83      0x2dd obj/MW_I2C.o
+ .debug_loc     0x000000000000a260      0x2b8 obj/MW_TIM.o
+ .debug_loc     0x000000000000a518      0x1b8 obj/MW_USART.o
+ .debug_loc     0x000000000000a6d0       0xb5 obj/message.o
+ .debug_loc     0x000000000000a785      0x907 obj/xprintf.o
+ .debug_loc     0x000000000000b08c       0x42 obj/DD_AB.o
+ .debug_loc     0x000000000000b0ce      0x338 obj/DD_Gene.o
+ .debug_loc     0x000000000000b406       0x52 obj/DD_MD.o
+ .debug_loc     0x000000000000b458      0x4b0 obj/DD_RC.o
+ .debug_loc     0x000000000000b908      0x285 obj/DD_SS.o
+ .debug_loc     0x000000000000bb8d      0x1e6 obj/SystemTaskManager.o
 
-.debug_aranges  0x0000000000000000     0x1258
+.debug_aranges  0x0000000000000000     0x1260
  .debug_aranges
                 0x0000000000000000       0x50 obj/app.o
  .debug_aranges
@@ -11760,97 +11767,97 @@ OUTPUT(bin/Test.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000110       0x88 obj/msp.o
  .debug_aranges
-                0x0000000000000198       0x90 obj/stm32f1xx_it.o
+                0x0000000000000198       0x98 obj/stm32f1xx_it.o
  .debug_aranges
-                0x0000000000000228       0x28 obj/system_stm32f1xx.o
+                0x0000000000000230       0x28 obj/system_stm32f1xx.o
  .debug_aranges
-                0x0000000000000250       0xb0 obj/stm32f1xx_hal.o
+                0x0000000000000258       0xb0 obj/stm32f1xx_hal.o
  .debug_aranges
-                0x0000000000000300       0x90 obj/stm32f1xx_hal_cortex.o
+                0x0000000000000308       0x90 obj/stm32f1xx_hal_cortex.o
  .debug_aranges
-                0x0000000000000390       0x68 obj/stm32f1xx_hal_dma.o
+                0x0000000000000398       0x68 obj/stm32f1xx_hal_dma.o
  .debug_aranges
-                0x00000000000003f8       0x58 obj/stm32f1xx_hal_gpio.o
+                0x0000000000000400       0x58 obj/stm32f1xx_hal_gpio.o
  .debug_aranges
-                0x0000000000000450      0x218 obj/stm32f1xx_hal_i2c.o
+                0x0000000000000458      0x218 obj/stm32f1xx_hal_i2c.o
  .debug_aranges
-                0x0000000000000668       0x40 obj/stm32f1xx_hal_iwdg.o
+                0x0000000000000670       0x40 obj/stm32f1xx_hal_iwdg.o
  .debug_aranges
-                0x00000000000006a8       0x88 obj/stm32f1xx_hal_rcc.o
+                0x00000000000006b0       0x88 obj/stm32f1xx_hal_rcc.o
  .debug_aranges
-                0x0000000000000730       0x30 obj/stm32f1xx_hal_rcc_ex.o
+                0x0000000000000738       0x30 obj/stm32f1xx_hal_rcc_ex.o
  .debug_aranges
-                0x0000000000000760      0x368 obj/stm32f1xx_hal_tim.o
+                0x0000000000000768      0x368 obj/stm32f1xx_hal_tim.o
  .debug_aranges
-                0x0000000000000ac8      0x138 obj/stm32f1xx_hal_tim_ex.o
+                0x0000000000000ad0      0x138 obj/stm32f1xx_hal_tim_ex.o
  .debug_aranges
-                0x0000000000000c00      0x150 obj/stm32f1xx_hal_uart.o
+                0x0000000000000c08      0x150 obj/stm32f1xx_hal_uart.o
  .debug_aranges
-                0x0000000000000d50       0x30 obj/MW_ENCODER.o
+                0x0000000000000d58       0x30 obj/MW_ENCODER.o
  .debug_aranges
-                0x0000000000000d80       0x58 obj/MW_GPIO.o
+                0x0000000000000d88       0x58 obj/MW_GPIO.o
  .debug_aranges
-                0x0000000000000dd8       0x60 obj/MW_I2C.o
+                0x0000000000000de0       0x60 obj/MW_I2C.o
  .debug_aranges
-                0x0000000000000e38       0x40 obj/MW_IWDG.o
+                0x0000000000000e40       0x40 obj/MW_IWDG.o
  .debug_aranges
-                0x0000000000000e78       0x80 obj/MW_TIM.o
+                0x0000000000000e80       0x80 obj/MW_TIM.o
  .debug_aranges
-                0x0000000000000ef8       0x60 obj/MW_USART.o
+                0x0000000000000f00       0x60 obj/MW_USART.o
  .debug_aranges
-                0x0000000000000f58       0x48 obj/message.o
+                0x0000000000000f60       0x48 obj/message.o
  .debug_aranges
-                0x0000000000000fa0       0x70 obj/xprintf.o
+                0x0000000000000fa8       0x70 obj/xprintf.o
  .debug_aranges
-                0x0000000000001010       0x28 obj/DD_AB.o
+                0x0000000000001018       0x28 obj/DD_AB.o
  .debug_aranges
-                0x0000000000001038       0x60 obj/DD_ENCODER.o
+                0x0000000000001040       0x60 obj/DD_ENCODER.o
  .debug_aranges
-                0x0000000000001098       0x50 obj/DD_Gene.o
+                0x00000000000010a0       0x50 obj/DD_Gene.o
  .debug_aranges
-                0x00000000000010e8       0x28 obj/DD_MD.o
+                0x00000000000010f0       0x28 obj/DD_MD.o
  .debug_aranges
-                0x0000000000001110       0x58 obj/DD_RC.o
+                0x0000000000001118       0x58 obj/DD_RC.o
  .debug_aranges
-                0x0000000000001168       0x78 obj/DD_SS.o
+                0x0000000000001170       0x78 obj/DD_SS.o
  .debug_aranges
-                0x00000000000011e0       0x78 obj/SystemTaskManager.o
+                0x00000000000011e8       0x78 obj/SystemTaskManager.o
 
-.debug_ranges   0x0000000000000000     0x1130
+.debug_ranges   0x0000000000000000     0x1138
  .debug_ranges  0x0000000000000000       0x40 obj/app.o
  .debug_ranges  0x0000000000000040       0x10 obj/assert.o
  .debug_ranges  0x0000000000000050       0xa8 obj/constManager.o
  .debug_ranges  0x00000000000000f8       0x78 obj/msp.o
- .debug_ranges  0x0000000000000170       0x80 obj/stm32f1xx_it.o
- .debug_ranges  0x00000000000001f0       0x18 obj/system_stm32f1xx.o
- .debug_ranges  0x0000000000000208       0xa0 obj/stm32f1xx_hal.o
- .debug_ranges  0x00000000000002a8       0xe0 obj/stm32f1xx_hal_cortex.o
- .debug_ranges  0x0000000000000388       0x58 obj/stm32f1xx_hal_dma.o
- .debug_ranges  0x00000000000003e0       0x48 obj/stm32f1xx_hal_gpio.o
- .debug_ranges  0x0000000000000428      0x208 obj/stm32f1xx_hal_i2c.o
- .debug_ranges  0x0000000000000630       0x30 obj/stm32f1xx_hal_iwdg.o
- .debug_ranges  0x0000000000000660       0x78 obj/stm32f1xx_hal_rcc.o
- .debug_ranges  0x00000000000006d8       0x20 obj/stm32f1xx_hal_rcc_ex.o
- .debug_ranges  0x00000000000006f8      0x358 obj/stm32f1xx_hal_tim.o
- .debug_ranges  0x0000000000000a50      0x128 obj/stm32f1xx_hal_tim_ex.o
- .debug_ranges  0x0000000000000b78      0x140 obj/stm32f1xx_hal_uart.o
- .debug_ranges  0x0000000000000cb8       0x20 obj/MW_ENCODER.o
- .debug_ranges  0x0000000000000cd8       0x48 obj/MW_GPIO.o
- .debug_ranges  0x0000000000000d20       0x50 obj/MW_I2C.o
- .debug_ranges  0x0000000000000d70       0x30 obj/MW_IWDG.o
- .debug_ranges  0x0000000000000da0       0x70 obj/MW_TIM.o
- .debug_ranges  0x0000000000000e10       0x50 obj/MW_USART.o
- .debug_ranges  0x0000000000000e60       0x38 obj/message.o
- .debug_ranges  0x0000000000000e98       0x60 obj/xprintf.o
- .debug_ranges  0x0000000000000ef8       0x18 obj/DD_AB.o
- .debug_ranges  0x0000000000000f10       0x50 obj/DD_ENCODER.o
- .debug_ranges  0x0000000000000f60       0x40 obj/DD_Gene.o
- .debug_ranges  0x0000000000000fa0       0x18 obj/DD_MD.o
- .debug_ranges  0x0000000000000fb8       0x78 obj/DD_RC.o
- .debug_ranges  0x0000000000001030       0x98 obj/DD_SS.o
- .debug_ranges  0x00000000000010c8       0x68 obj/SystemTaskManager.o
+ .debug_ranges  0x0000000000000170       0x88 obj/stm32f1xx_it.o
+ .debug_ranges  0x00000000000001f8       0x18 obj/system_stm32f1xx.o
+ .debug_ranges  0x0000000000000210       0xa0 obj/stm32f1xx_hal.o
+ .debug_ranges  0x00000000000002b0       0xe0 obj/stm32f1xx_hal_cortex.o
+ .debug_ranges  0x0000000000000390       0x58 obj/stm32f1xx_hal_dma.o
+ .debug_ranges  0x00000000000003e8       0x48 obj/stm32f1xx_hal_gpio.o
+ .debug_ranges  0x0000000000000430      0x208 obj/stm32f1xx_hal_i2c.o
+ .debug_ranges  0x0000000000000638       0x30 obj/stm32f1xx_hal_iwdg.o
+ .debug_ranges  0x0000000000000668       0x78 obj/stm32f1xx_hal_rcc.o
+ .debug_ranges  0x00000000000006e0       0x20 obj/stm32f1xx_hal_rcc_ex.o
+ .debug_ranges  0x0000000000000700      0x358 obj/stm32f1xx_hal_tim.o
+ .debug_ranges  0x0000000000000a58      0x128 obj/stm32f1xx_hal_tim_ex.o
+ .debug_ranges  0x0000000000000b80      0x140 obj/stm32f1xx_hal_uart.o
+ .debug_ranges  0x0000000000000cc0       0x20 obj/MW_ENCODER.o
+ .debug_ranges  0x0000000000000ce0       0x48 obj/MW_GPIO.o
+ .debug_ranges  0x0000000000000d28       0x50 obj/MW_I2C.o
+ .debug_ranges  0x0000000000000d78       0x30 obj/MW_IWDG.o
+ .debug_ranges  0x0000000000000da8       0x70 obj/MW_TIM.o
+ .debug_ranges  0x0000000000000e18       0x50 obj/MW_USART.o
+ .debug_ranges  0x0000000000000e68       0x38 obj/message.o
+ .debug_ranges  0x0000000000000ea0       0x60 obj/xprintf.o
+ .debug_ranges  0x0000000000000f00       0x18 obj/DD_AB.o
+ .debug_ranges  0x0000000000000f18       0x50 obj/DD_ENCODER.o
+ .debug_ranges  0x0000000000000f68       0x40 obj/DD_Gene.o
+ .debug_ranges  0x0000000000000fa8       0x18 obj/DD_MD.o
+ .debug_ranges  0x0000000000000fc0       0x78 obj/DD_RC.o
+ .debug_ranges  0x0000000000001038       0x98 obj/DD_SS.o
+ .debug_ranges  0x00000000000010d0       0x68 obj/SystemTaskManager.o
 
-.debug_macro    0x0000000000000000    0x16a90
+.debug_macro    0x0000000000000000    0x16af0
  .debug_macro   0x0000000000000000      0x43e obj/app.o
  .debug_macro   0x000000000000043e      0xab4 obj/app.o
  .debug_macro   0x0000000000000ef2       0x46 obj/app.o
@@ -11864,224 +11871,224 @@ OUTPUT(bin/Test.elf elf32-littlearm)
  .debug_macro   0x0000000000001387       0x10 obj/app.o
  .debug_macro   0x0000000000001397       0x40 obj/app.o
  .debug_macro   0x00000000000013d7       0x10 obj/app.o
- .debug_macro   0x00000000000013e7      0x17e obj/app.o
- .debug_macro   0x0000000000001565      0x1b1 obj/app.o
- .debug_macro   0x0000000000001716       0x2e obj/app.o
- .debug_macro   0x0000000000001744       0x22 obj/app.o
- .debug_macro   0x0000000000001766       0x3a obj/app.o
- .debug_macro   0x00000000000017a0       0x34 obj/app.o
- .debug_macro   0x00000000000017d4      0xb8e obj/app.o
- .debug_macro   0x0000000000002362     0x69eb obj/app.o
- .debug_macro   0x0000000000008d4d       0x43 obj/app.o
- .debug_macro   0x0000000000008d90     0x3383 obj/app.o
- .debug_macro   0x000000000000c113       0x5e obj/app.o
- .debug_macro   0x000000000000c171       0x18 obj/app.o
- .debug_macro   0x000000000000c189       0x35 obj/app.o
- .debug_macro   0x000000000000c1be       0x34 obj/app.o
- .debug_macro   0x000000000000c1f2       0x16 obj/app.o
- .debug_macro   0x000000000000c208       0x97 obj/app.o
- .debug_macro   0x000000000000c29f      0x353 obj/app.o
- .debug_macro   0x000000000000c5f2       0xf6 obj/app.o
- .debug_macro   0x000000000000c6e8       0x10 obj/app.o
- .debug_macro   0x000000000000c6f8       0x58 obj/app.o
- .debug_macro   0x000000000000c750       0x1f obj/app.o
- .debug_macro   0x000000000000c76f       0x43 obj/app.o
- .debug_macro   0x000000000000c7b2       0x20 obj/app.o
- .debug_macro   0x000000000000c7d2      0x18e obj/app.o
- .debug_macro   0x000000000000c960       0x10 obj/app.o
- .debug_macro   0x000000000000c970       0x1c obj/app.o
- .debug_macro   0x000000000000c98c       0x52 obj/app.o
- .debug_macro   0x000000000000c9de       0x40 obj/app.o
- .debug_macro   0x000000000000ca1e       0x10 obj/app.o
- .debug_macro   0x000000000000ca2e       0x40 obj/app.o
- .debug_macro   0x000000000000ca6e       0xd7 obj/app.o
- .debug_macro   0x000000000000cb45       0x1c obj/app.o
- .debug_macro   0x000000000000cb61       0x3d obj/app.o
- .debug_macro   0x000000000000cb9e       0x16 obj/app.o
- .debug_macro   0x000000000000cbb4      0x16f obj/app.o
- .debug_macro   0x000000000000cd23       0x57 obj/app.o
- .debug_macro   0x000000000000cd7a      0x778 obj/app.o
- .debug_macro   0x000000000000d4f2      0x28b obj/app.o
- .debug_macro   0x000000000000d77d      0x141 obj/app.o
- .debug_macro   0x000000000000d8be      0x197 obj/app.o
- .debug_macro   0x000000000000da55      0x1ae obj/app.o
- .debug_macro   0x000000000000dc03       0x2d obj/app.o
- .debug_macro   0x000000000000dc30       0x3c obj/app.o
- .debug_macro   0x000000000000dc6c       0x57 obj/app.o
- .debug_macro   0x000000000000dcc3      0x46a obj/app.o
- .debug_macro   0x000000000000e12d      0x1b5 obj/app.o
- .debug_macro   0x000000000000e2e2       0x8c obj/app.o
- .debug_macro   0x000000000000e36e      0x242 obj/app.o
- .debug_macro   0x000000000000e5b0      0x225 obj/app.o
- .debug_macro   0x000000000000e7d5       0x99 obj/app.o
- .debug_macro   0x000000000000e86e      0x143 obj/app.o
- .debug_macro   0x000000000000e9b1      0x1f4 obj/app.o
- .debug_macro   0x000000000000eba5      0x83e obj/app.o
- .debug_macro   0x000000000000f3e3       0x11 obj/app.o
- .debug_macro   0x000000000000f3f4      0x256 obj/app.o
- .debug_macro   0x000000000000f64a       0x7c obj/app.o
- .debug_macro   0x000000000000f6c6       0x16 obj/app.o
- .debug_macro   0x000000000000f6dc       0x35 obj/app.o
- .debug_macro   0x000000000000f711       0x16 obj/app.o
- .debug_macro   0x000000000000f727       0x29 obj/app.o
- .debug_macro   0x000000000000f750       0x16 obj/app.o
- .debug_macro   0x000000000000f766      0x100 obj/app.o
- .debug_macro   0x000000000000f866       0x2e obj/app.o
- .debug_macro   0x000000000000f894       0x22 obj/app.o
- .debug_macro   0x000000000000f8b6      0x1e1 obj/app.o
- .debug_macro   0x000000000000fa97       0x28 obj/app.o
- .debug_macro   0x000000000000fabf       0x34 obj/app.o
- .debug_macro   0x000000000000faf3      0x325 obj/assert.o
- .debug_macro   0x000000000000fe18       0x34 obj/assert.o
- .debug_macro   0x000000000000fe4c      0x3b2 obj/constManager.o
- .debug_macro   0x00000000000101fe       0x58 obj/constManager.o
- .debug_macro   0x0000000000010256       0x94 obj/constManager.o
- .debug_macro   0x00000000000102ea       0x57 obj/constManager.o
- .debug_macro   0x0000000000010341      0x10b obj/constManager.o
- .debug_macro   0x000000000001044c       0x10 obj/constManager.o
- .debug_macro   0x000000000001045c       0x1c obj/constManager.o
- .debug_macro   0x0000000000010478       0x28 obj/constManager.o
- .debug_macro   0x00000000000104a0      0x3e9 obj/deviceDefinition.o
- .debug_macro   0x0000000000010889      0x325 obj/msp.o
- .debug_macro   0x0000000000010bae      0x369 obj/stm32f1xx_it.o
- .debug_macro   0x0000000000010f17       0x10 obj/stm32f1xx_it.o
- .debug_macro   0x0000000000010f27       0xd1 obj/system_stm32f1xx.o
- .debug_macro   0x0000000000010ff8      0x349 obj/stm32f1xx_hal.o
- .debug_macro   0x0000000000011341      0x325 obj/stm32f1xx_hal_cortex.o
- .debug_macro   0x0000000000011666      0x32b obj/stm32f1xx_hal_dma.o
- .debug_macro   0x0000000000011991      0x395 obj/stm32f1xx_hal_gpio.o
- .debug_macro   0x0000000000011d26      0x33b obj/stm32f1xx_hal_i2c.o
- .debug_macro   0x0000000000012061      0x32b obj/stm32f1xx_hal_iwdg.o
- .debug_macro   0x000000000001238c      0x349 obj/stm32f1xx_hal_rcc.o
- .debug_macro   0x00000000000126d5      0x325 obj/stm32f1xx_hal_rcc_ex.o
- .debug_macro   0x00000000000129fa      0x326 obj/stm32f1xx_hal_tim.o
- .debug_macro   0x0000000000012d20      0x325 obj/stm32f1xx_hal_tim_ex.o
- .debug_macro   0x0000000000013045      0x326 obj/stm32f1xx_hal_uart.o
- .debug_macro   0x000000000001336b      0x369 obj/MW_ENCODER.o
- .debug_macro   0x00000000000136d4      0x334 obj/MW_GPIO.o
- .debug_macro   0x0000000000013a08       0x22 obj/MW_GPIO.o
- .debug_macro   0x0000000000013a2a      0x372 obj/MW_I2C.o
- .debug_macro   0x0000000000013d9c      0x363 obj/MW_IWDG.o
- .debug_macro   0x00000000000140ff      0x368 obj/MW_TIM.o
- .debug_macro   0x0000000000014467       0x16 obj/MW_TIM.o
- .debug_macro   0x000000000001447d      0x369 obj/MW_USART.o
- .debug_macro   0x00000000000147e6      0x3a1 obj/message.o
- .debug_macro   0x0000000000014b87       0x22 obj/message.o
- .debug_macro   0x0000000000014ba9       0x58 obj/message.o
- .debug_macro   0x0000000000014c01       0x22 obj/message.o
- .debug_macro   0x0000000000014c23      0x33d obj/xprintf.o
- .debug_macro   0x0000000000014f60      0x3da obj/DD_AB.o
- .debug_macro   0x000000000001533a      0x3da obj/DD_ENCODER.o
- .debug_macro   0x0000000000015714      0x3ec obj/DD_Gene.o
- .debug_macro   0x0000000000015b00       0x10 obj/DD_Gene.o
- .debug_macro   0x0000000000015b10      0x3da obj/DD_MD.o
- .debug_macro   0x0000000000015eea      0x396 obj/DD_RC.o
- .debug_macro   0x0000000000016280       0x1c obj/DD_RC.o
- .debug_macro   0x000000000001629c      0x3e3 obj/DD_SS.o
- .debug_macro   0x000000000001667f      0x411 obj/SystemTaskManager.o
+ .debug_macro   0x00000000000013e7      0x1de obj/app.o
+ .debug_macro   0x00000000000015c5      0x1b1 obj/app.o
+ .debug_macro   0x0000000000001776       0x2e obj/app.o
+ .debug_macro   0x00000000000017a4       0x22 obj/app.o
+ .debug_macro   0x00000000000017c6       0x3a obj/app.o
+ .debug_macro   0x0000000000001800       0x34 obj/app.o
+ .debug_macro   0x0000000000001834      0xb8e obj/app.o
+ .debug_macro   0x00000000000023c2     0x69eb obj/app.o
+ .debug_macro   0x0000000000008dad       0x43 obj/app.o
+ .debug_macro   0x0000000000008df0     0x3383 obj/app.o
+ .debug_macro   0x000000000000c173       0x5e obj/app.o
+ .debug_macro   0x000000000000c1d1       0x18 obj/app.o
+ .debug_macro   0x000000000000c1e9       0x35 obj/app.o
+ .debug_macro   0x000000000000c21e       0x34 obj/app.o
+ .debug_macro   0x000000000000c252       0x16 obj/app.o
+ .debug_macro   0x000000000000c268       0x97 obj/app.o
+ .debug_macro   0x000000000000c2ff      0x353 obj/app.o
+ .debug_macro   0x000000000000c652       0xf6 obj/app.o
+ .debug_macro   0x000000000000c748       0x10 obj/app.o
+ .debug_macro   0x000000000000c758       0x58 obj/app.o
+ .debug_macro   0x000000000000c7b0       0x1f obj/app.o
+ .debug_macro   0x000000000000c7cf       0x43 obj/app.o
+ .debug_macro   0x000000000000c812       0x20 obj/app.o
+ .debug_macro   0x000000000000c832      0x18e obj/app.o
+ .debug_macro   0x000000000000c9c0       0x10 obj/app.o
+ .debug_macro   0x000000000000c9d0       0x1c obj/app.o
+ .debug_macro   0x000000000000c9ec       0x52 obj/app.o
+ .debug_macro   0x000000000000ca3e       0x40 obj/app.o
+ .debug_macro   0x000000000000ca7e       0x10 obj/app.o
+ .debug_macro   0x000000000000ca8e       0x40 obj/app.o
+ .debug_macro   0x000000000000cace       0xd7 obj/app.o
+ .debug_macro   0x000000000000cba5       0x1c obj/app.o
+ .debug_macro   0x000000000000cbc1       0x3d obj/app.o
+ .debug_macro   0x000000000000cbfe       0x16 obj/app.o
+ .debug_macro   0x000000000000cc14      0x16f obj/app.o
+ .debug_macro   0x000000000000cd83       0x57 obj/app.o
+ .debug_macro   0x000000000000cdda      0x778 obj/app.o
+ .debug_macro   0x000000000000d552      0x28b obj/app.o
+ .debug_macro   0x000000000000d7dd      0x141 obj/app.o
+ .debug_macro   0x000000000000d91e      0x197 obj/app.o
+ .debug_macro   0x000000000000dab5      0x1ae obj/app.o
+ .debug_macro   0x000000000000dc63       0x2d obj/app.o
+ .debug_macro   0x000000000000dc90       0x3c obj/app.o
+ .debug_macro   0x000000000000dccc       0x57 obj/app.o
+ .debug_macro   0x000000000000dd23      0x46a obj/app.o
+ .debug_macro   0x000000000000e18d      0x1b5 obj/app.o
+ .debug_macro   0x000000000000e342       0x8c obj/app.o
+ .debug_macro   0x000000000000e3ce      0x242 obj/app.o
+ .debug_macro   0x000000000000e610      0x225 obj/app.o
+ .debug_macro   0x000000000000e835       0x99 obj/app.o
+ .debug_macro   0x000000000000e8ce      0x143 obj/app.o
+ .debug_macro   0x000000000000ea11      0x1f4 obj/app.o
+ .debug_macro   0x000000000000ec05      0x83e obj/app.o
+ .debug_macro   0x000000000000f443       0x11 obj/app.o
+ .debug_macro   0x000000000000f454      0x256 obj/app.o
+ .debug_macro   0x000000000000f6aa       0x7c obj/app.o
+ .debug_macro   0x000000000000f726       0x16 obj/app.o
+ .debug_macro   0x000000000000f73c       0x35 obj/app.o
+ .debug_macro   0x000000000000f771       0x16 obj/app.o
+ .debug_macro   0x000000000000f787       0x29 obj/app.o
+ .debug_macro   0x000000000000f7b0       0x16 obj/app.o
+ .debug_macro   0x000000000000f7c6      0x100 obj/app.o
+ .debug_macro   0x000000000000f8c6       0x2e obj/app.o
+ .debug_macro   0x000000000000f8f4       0x22 obj/app.o
+ .debug_macro   0x000000000000f916      0x1e1 obj/app.o
+ .debug_macro   0x000000000000faf7       0x28 obj/app.o
+ .debug_macro   0x000000000000fb1f       0x34 obj/app.o
+ .debug_macro   0x000000000000fb53      0x325 obj/assert.o
+ .debug_macro   0x000000000000fe78       0x34 obj/assert.o
+ .debug_macro   0x000000000000feac      0x3b2 obj/constManager.o
+ .debug_macro   0x000000000001025e       0x58 obj/constManager.o
+ .debug_macro   0x00000000000102b6       0x94 obj/constManager.o
+ .debug_macro   0x000000000001034a       0x57 obj/constManager.o
+ .debug_macro   0x00000000000103a1      0x10b obj/constManager.o
+ .debug_macro   0x00000000000104ac       0x10 obj/constManager.o
+ .debug_macro   0x00000000000104bc       0x1c obj/constManager.o
+ .debug_macro   0x00000000000104d8       0x28 obj/constManager.o
+ .debug_macro   0x0000000000010500      0x3e9 obj/deviceDefinition.o
+ .debug_macro   0x00000000000108e9      0x325 obj/msp.o
+ .debug_macro   0x0000000000010c0e      0x369 obj/stm32f1xx_it.o
+ .debug_macro   0x0000000000010f77       0x10 obj/stm32f1xx_it.o
+ .debug_macro   0x0000000000010f87       0xd1 obj/system_stm32f1xx.o
+ .debug_macro   0x0000000000011058      0x349 obj/stm32f1xx_hal.o
+ .debug_macro   0x00000000000113a1      0x325 obj/stm32f1xx_hal_cortex.o
+ .debug_macro   0x00000000000116c6      0x32b obj/stm32f1xx_hal_dma.o
+ .debug_macro   0x00000000000119f1      0x395 obj/stm32f1xx_hal_gpio.o
+ .debug_macro   0x0000000000011d86      0x33b obj/stm32f1xx_hal_i2c.o
+ .debug_macro   0x00000000000120c1      0x32b obj/stm32f1xx_hal_iwdg.o
+ .debug_macro   0x00000000000123ec      0x349 obj/stm32f1xx_hal_rcc.o
+ .debug_macro   0x0000000000012735      0x325 obj/stm32f1xx_hal_rcc_ex.o
+ .debug_macro   0x0000000000012a5a      0x326 obj/stm32f1xx_hal_tim.o
+ .debug_macro   0x0000000000012d80      0x325 obj/stm32f1xx_hal_tim_ex.o
+ .debug_macro   0x00000000000130a5      0x326 obj/stm32f1xx_hal_uart.o
+ .debug_macro   0x00000000000133cb      0x369 obj/MW_ENCODER.o
+ .debug_macro   0x0000000000013734      0x334 obj/MW_GPIO.o
+ .debug_macro   0x0000000000013a68       0x22 obj/MW_GPIO.o
+ .debug_macro   0x0000000000013a8a      0x372 obj/MW_I2C.o
+ .debug_macro   0x0000000000013dfc      0x363 obj/MW_IWDG.o
+ .debug_macro   0x000000000001415f      0x368 obj/MW_TIM.o
+ .debug_macro   0x00000000000144c7       0x16 obj/MW_TIM.o
+ .debug_macro   0x00000000000144dd      0x369 obj/MW_USART.o
+ .debug_macro   0x0000000000014846      0x3a1 obj/message.o
+ .debug_macro   0x0000000000014be7       0x22 obj/message.o
+ .debug_macro   0x0000000000014c09       0x58 obj/message.o
+ .debug_macro   0x0000000000014c61       0x22 obj/message.o
+ .debug_macro   0x0000000000014c83      0x33d obj/xprintf.o
+ .debug_macro   0x0000000000014fc0      0x3da obj/DD_AB.o
+ .debug_macro   0x000000000001539a      0x3da obj/DD_ENCODER.o
+ .debug_macro   0x0000000000015774      0x3ec obj/DD_Gene.o
+ .debug_macro   0x0000000000015b60       0x10 obj/DD_Gene.o
+ .debug_macro   0x0000000000015b70      0x3da obj/DD_MD.o
+ .debug_macro   0x0000000000015f4a      0x396 obj/DD_RC.o
+ .debug_macro   0x00000000000162e0       0x1c obj/DD_RC.o
+ .debug_macro   0x00000000000162fc      0x3e3 obj/DD_SS.o
+ .debug_macro   0x00000000000166df      0x411 obj/SystemTaskManager.o
 
-.debug_line     0x0000000000000000    0x1812a
- .debug_line    0x0000000000000000      0xe93 obj/app.o
- .debug_line    0x0000000000000e93      0x71f obj/assert.o
- .debug_line    0x00000000000015b2      0xbbe obj/constManager.o
- .debug_line    0x0000000000002170      0xb53 obj/deviceDefinition.o
- .debug_line    0x0000000000002cc3      0x95c obj/msp.o
- .debug_line    0x000000000000361f      0x9bc obj/stm32f1xx_it.o
- .debug_line    0x0000000000003fdb      0x333 obj/system_stm32f1xx.o
- .debug_line    0x000000000000430e      0x8a0 obj/stm32f1xx_hal.o
- .debug_line    0x0000000000004bae      0x937 obj/stm32f1xx_hal_cortex.o
- .debug_line    0x00000000000054e5      0xbce obj/stm32f1xx_hal_dma.o
- .debug_line    0x00000000000060b3      0x9ea obj/stm32f1xx_hal_gpio.o
- .debug_line    0x0000000000006a9d     0x17f7 obj/stm32f1xx_hal_i2c.o
- .debug_line    0x0000000000008294      0x7fe obj/stm32f1xx_hal_iwdg.o
- .debug_line    0x0000000000008a92      0xd93 obj/stm32f1xx_hal_rcc.o
- .debug_line    0x0000000000009825      0x89b obj/stm32f1xx_hal_rcc_ex.o
- .debug_line    0x000000000000a0c0     0x26f2 obj/stm32f1xx_hal_tim.o
- .debug_line    0x000000000000c7b2     0x1098 obj/stm32f1xx_hal_tim_ex.o
- .debug_line    0x000000000000d84a      0xf33 obj/stm32f1xx_hal_uart.o
- .debug_line    0x000000000000e77d      0x81a obj/MW_ENCODER.o
- .debug_line    0x000000000000ef97      0x7fb obj/MW_GPIO.o
- .debug_line    0x000000000000f792      0x870 obj/MW_I2C.o
- .debug_line    0x0000000000010002      0x805 obj/MW_IWDG.o
- .debug_line    0x0000000000010807      0x8f2 obj/MW_TIM.o
- .debug_line    0x00000000000110f9      0x865 obj/MW_USART.o
- .debug_line    0x000000000001195e      0x986 obj/message.o
- .debug_line    0x00000000000122e4      0xa24 obj/xprintf.o
- .debug_line    0x0000000000012d08      0xb12 obj/DD_AB.o
- .debug_line    0x000000000001381a      0xb91 obj/DD_ENCODER.o
- .debug_line    0x00000000000143ab      0xca8 obj/DD_Gene.o
- .debug_line    0x0000000000015053      0xb25 obj/DD_MD.o
- .debug_line    0x0000000000015b78      0xaad obj/DD_RC.o
- .debug_line    0x0000000000016625      0xc6e obj/DD_SS.o
- .debug_line    0x0000000000017293      0xe97 obj/SystemTaskManager.o
+.debug_line     0x0000000000000000    0x18163
+ .debug_line    0x0000000000000000      0xea4 obj/app.o
+ .debug_line    0x0000000000000ea4      0x71f obj/assert.o
+ .debug_line    0x00000000000015c3      0xbbe obj/constManager.o
+ .debug_line    0x0000000000002181      0xb53 obj/deviceDefinition.o
+ .debug_line    0x0000000000002cd4      0x969 obj/msp.o
+ .debug_line    0x000000000000363d      0x9ce obj/stm32f1xx_it.o
+ .debug_line    0x000000000000400b      0x333 obj/system_stm32f1xx.o
+ .debug_line    0x000000000000433e      0x8a0 obj/stm32f1xx_hal.o
+ .debug_line    0x0000000000004bde      0x937 obj/stm32f1xx_hal_cortex.o
+ .debug_line    0x0000000000005515      0xbce obj/stm32f1xx_hal_dma.o
+ .debug_line    0x00000000000060e3      0x9ea obj/stm32f1xx_hal_gpio.o
+ .debug_line    0x0000000000006acd     0x17f7 obj/stm32f1xx_hal_i2c.o
+ .debug_line    0x00000000000082c4      0x7fe obj/stm32f1xx_hal_iwdg.o
+ .debug_line    0x0000000000008ac2      0xd93 obj/stm32f1xx_hal_rcc.o
+ .debug_line    0x0000000000009855      0x89b obj/stm32f1xx_hal_rcc_ex.o
+ .debug_line    0x000000000000a0f0     0x26f2 obj/stm32f1xx_hal_tim.o
+ .debug_line    0x000000000000c7e2     0x1098 obj/stm32f1xx_hal_tim_ex.o
+ .debug_line    0x000000000000d87a      0xf33 obj/stm32f1xx_hal_uart.o
+ .debug_line    0x000000000000e7ad      0x81a obj/MW_ENCODER.o
+ .debug_line    0x000000000000efc7      0x7fb obj/MW_GPIO.o
+ .debug_line    0x000000000000f7c2      0x870 obj/MW_I2C.o
+ .debug_line    0x0000000000010032      0x805 obj/MW_IWDG.o
+ .debug_line    0x0000000000010837      0x8f2 obj/MW_TIM.o
+ .debug_line    0x0000000000011129      0x865 obj/MW_USART.o
+ .debug_line    0x000000000001198e      0x986 obj/message.o
+ .debug_line    0x0000000000012314      0xa24 obj/xprintf.o
+ .debug_line    0x0000000000012d38      0xb12 obj/DD_AB.o
+ .debug_line    0x000000000001384a      0xb91 obj/DD_ENCODER.o
+ .debug_line    0x00000000000143db      0xca8 obj/DD_Gene.o
+ .debug_line    0x0000000000015083      0xb25 obj/DD_MD.o
+ .debug_line    0x0000000000015ba8      0xaad obj/DD_RC.o
+ .debug_line    0x0000000000016655      0xc6e obj/DD_SS.o
+ .debug_line    0x00000000000172c3      0xea0 obj/SystemTaskManager.o
 
-.debug_str      0x0000000000000000    0x6d920
- .debug_str     0x0000000000000000    0x6839f obj/app.o
-                                      0x6880a (size before relaxing)
- .debug_str     0x000000000006839f       0x1f obj/assert.o
+.debug_str      0x0000000000000000    0x6da6d
+ .debug_str     0x0000000000000000    0x684d9 obj/app.o
+                                      0x68944 (size before relaxing)
+ .debug_str     0x00000000000684d9       0x1f obj/assert.o
                                       0x663ab (size before relaxing)
- .debug_str     0x00000000000683be      0xa4f obj/constManager.o
+ .debug_str     0x00000000000684f8      0xa4f obj/constManager.o
                                       0x677f0 (size before relaxing)
- .debug_str     0x0000000000068e0d       0x1b obj/deviceDefinition.o
-                                      0x67453 (size before relaxing)
- .debug_str     0x0000000000068e28      0xd22 obj/msp.o
+ .debug_str     0x0000000000068f47       0x1b obj/deviceDefinition.o
+                                      0x675ec (size before relaxing)
+ .debug_str     0x0000000000068f62      0xd22 obj/msp.o
                                       0x67250 (size before relaxing)
- .debug_str     0x0000000000069b4a      0x27a obj/stm32f1xx_it.o
-                                      0x66d03 (size before relaxing)
- .debug_str     0x0000000000069dc4       0xb6 obj/system_stm32f1xx.o
+ .debug_str     0x0000000000069c84      0x293 obj/stm32f1xx_it.o
+                                      0x66d1c (size before relaxing)
+ .debug_str     0x0000000000069f17       0xb6 obj/system_stm32f1xx.o
                                       0x2e28e (size before relaxing)
- .debug_str     0x0000000000069e7a      0x2ee obj/stm32f1xx_hal.o
+ .debug_str     0x0000000000069fcd      0x2ee obj/stm32f1xx_hal.o
                                       0x66aad (size before relaxing)
- .debug_str     0x000000000006a168      0x226 obj/stm32f1xx_hal_cortex.o
+ .debug_str     0x000000000006a2bb      0x226 obj/stm32f1xx_hal_cortex.o
                                       0x66aa7 (size before relaxing)
- .debug_str     0x000000000006a38e      0x151 obj/stm32f1xx_hal_dma.o
+ .debug_str     0x000000000006a4e1      0x151 obj/stm32f1xx_hal_dma.o
                                       0x66727 (size before relaxing)
- .debug_str     0x000000000006a4df      0x3d1 obj/stm32f1xx_hal_gpio.o
+ .debug_str     0x000000000006a632      0x3d1 obj/stm32f1xx_hal_gpio.o
                                       0x6689e (size before relaxing)
- .debug_str     0x000000000006a8b0      0x6ec obj/stm32f1xx_hal_i2c.o
+ .debug_str     0x000000000006aa03      0x6ec obj/stm32f1xx_hal_i2c.o
                                       0x66ede (size before relaxing)
- .debug_str     0x000000000006af9c      0x162 obj/stm32f1xx_hal_iwdg.o
+ .debug_str     0x000000000006b0ef      0x162 obj/stm32f1xx_hal_iwdg.o
                                       0x66598 (size before relaxing)
- .debug_str     0x000000000006b0fe      0x39e obj/stm32f1xx_hal_rcc.o
+ .debug_str     0x000000000006b251      0x39e obj/stm32f1xx_hal_rcc.o
                                       0x668cb (size before relaxing)
- .debug_str     0x000000000006b49c      0x128 obj/stm32f1xx_hal_rcc_ex.o
+ .debug_str     0x000000000006b5ef      0x128 obj/stm32f1xx_hal_rcc_ex.o
                                       0x665ca (size before relaxing)
- .debug_str     0x000000000006b5c4      0xcb2 obj/stm32f1xx_hal_tim.o
+ .debug_str     0x000000000006b717      0xcb2 obj/stm32f1xx_hal_tim.o
                                       0x6751f (size before relaxing)
- .debug_str     0x000000000006c276      0x4a9 obj/stm32f1xx_hal_tim_ex.o
+ .debug_str     0x000000000006c3c9      0x4a9 obj/stm32f1xx_hal_tim_ex.o
                                       0x66db9 (size before relaxing)
- .debug_str     0x000000000006c71f      0x34b obj/stm32f1xx_hal_uart.o
+ .debug_str     0x000000000006c872      0x34b obj/stm32f1xx_hal_uart.o
                                       0x66b7a (size before relaxing)
- .debug_str     0x000000000006ca6a       0xa3 obj/MW_ENCODER.o
+ .debug_str     0x000000000006cbbd       0xa3 obj/MW_ENCODER.o
                                       0x66a51 (size before relaxing)
- .debug_str     0x000000000006cb0d       0xaf obj/MW_GPIO.o
+ .debug_str     0x000000000006cc60       0xaf obj/MW_GPIO.o
                                       0x6665e (size before relaxing)
- .debug_str     0x000000000006cbbc       0xff obj/MW_I2C.o
+ .debug_str     0x000000000006cd0f       0xff obj/MW_I2C.o
                                       0x66a9e (size before relaxing)
- .debug_str     0x000000000006ccbb       0x72 obj/MW_IWDG.o
+ .debug_str     0x000000000006ce0e       0x72 obj/MW_IWDG.o
                                       0x66669 (size before relaxing)
- .debug_str     0x000000000006cd2d      0x29a obj/MW_TIM.o
+ .debug_str     0x000000000006ce80      0x29a obj/MW_TIM.o
                                       0x66bf2 (size before relaxing)
- .debug_str     0x000000000006cfc7       0xfc obj/MW_USART.o
+ .debug_str     0x000000000006d11a       0xfc obj/MW_USART.o
                                       0x669e2 (size before relaxing)
- .debug_str     0x000000000006d0c3      0x27d obj/message.o
+ .debug_str     0x000000000006d216      0x27d obj/message.o
                                       0x66dae (size before relaxing)
- .debug_str     0x000000000006d340       0x77 obj/xprintf.o
+ .debug_str     0x000000000006d493       0x77 obj/xprintf.o
                                       0x66a24 (size before relaxing)
- .debug_str     0x000000000006d3b7       0x53 obj/DD_AB.o
-                                      0x67346 (size before relaxing)
- .debug_str     0x000000000006d40a       0xdb obj/DD_ENCODER.o
-                                      0x67417 (size before relaxing)
- .debug_str     0x000000000006d4e5       0xd2 obj/DD_Gene.o
-                                      0x6791a (size before relaxing)
- .debug_str     0x000000000006d5b7       0x21 obj/DD_MD.o
-                                      0x67358 (size before relaxing)
- .debug_str     0x000000000006d5d8      0x15b obj/DD_RC.o
+ .debug_str     0x000000000006d50a       0x53 obj/DD_AB.o
+                                      0x674df (size before relaxing)
+ .debug_str     0x000000000006d55d       0xdb obj/DD_ENCODER.o
+                                      0x675b0 (size before relaxing)
+ .debug_str     0x000000000006d638       0xd2 obj/DD_Gene.o
+                                      0x67ab3 (size before relaxing)
+ .debug_str     0x000000000006d70a       0x21 obj/DD_MD.o
+                                      0x674f1 (size before relaxing)
+ .debug_str     0x000000000006d72b      0x15b obj/DD_RC.o
                                       0x672c4 (size before relaxing)
- .debug_str     0x000000000006d733      0x107 obj/DD_SS.o
-                                      0x674a2 (size before relaxing)
- .debug_str     0x000000000006d83a       0xe6 obj/SystemTaskManager.o
-                                      0x684bf (size before relaxing)
+ .debug_str     0x000000000006d886      0x107 obj/DD_SS.o
+                                      0x6763b (size before relaxing)
+ .debug_str     0x000000000006d98d       0xe0 obj/SystemTaskManager.o
+                                      0x68652 (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
  .comment       0x0000000000000000       0x7f obj/app.o
@@ -12119,60 +12126,60 @@ OUTPUT(bin/Test.elf elf32-littlearm)
  .comment       0x000000000000007f       0x80 obj/DD_SS.o
  .comment       0x000000000000007f       0x80 obj/SystemTaskManager.o
 
-.debug_frame    0x0000000000000000     0x3870
- .debug_frame   0x0000000000000000      0x100 obj/app.o
- .debug_frame   0x0000000000000100       0x20 obj/assert.o
- .debug_frame   0x0000000000000120      0x18c obj/constManager.o
- .debug_frame   0x00000000000002ac      0x198 obj/msp.o
- .debug_frame   0x0000000000000444      0x138 obj/stm32f1xx_it.o
- .debug_frame   0x000000000000057c       0x30 obj/system_stm32f1xx.o
- .debug_frame   0x00000000000005ac      0x168 obj/stm32f1xx_hal.o
- .debug_frame   0x0000000000000714      0x144 obj/stm32f1xx_hal_cortex.o
- .debug_frame   0x0000000000000858      0x124 obj/stm32f1xx_hal_dma.o
- .debug_frame   0x000000000000097c       0xfc obj/stm32f1xx_hal_gpio.o
- .debug_frame   0x0000000000000a78      0x750 obj/stm32f1xx_hal_i2c.o
- .debug_frame   0x00000000000011c8       0x80 obj/stm32f1xx_hal_iwdg.o
- .debug_frame   0x0000000000001248      0x170 obj/stm32f1xx_hal_rcc.o
- .debug_frame   0x00000000000013b8       0x6c obj/stm32f1xx_hal_rcc_ex.o
- .debug_frame   0x0000000000001424      0xa8c obj/stm32f1xx_hal_tim.o
- .debug_frame   0x0000000000001eb0      0x3c0 obj/stm32f1xx_hal_tim_ex.o
- .debug_frame   0x0000000000002270      0x3a0 obj/stm32f1xx_hal_uart.o
- .debug_frame   0x0000000000002610       0x64 obj/MW_ENCODER.o
- .debug_frame   0x0000000000002674       0xbc obj/MW_GPIO.o
- .debug_frame   0x0000000000002730       0xec obj/MW_I2C.o
- .debug_frame   0x000000000000281c       0x78 obj/MW_IWDG.o
- .debug_frame   0x0000000000002894      0x164 obj/MW_TIM.o
- .debug_frame   0x00000000000029f8      0x104 obj/MW_USART.o
- .debug_frame   0x0000000000002afc       0xfc obj/message.o
- .debug_frame   0x0000000000002bf8      0x1a0 obj/xprintf.o
- .debug_frame   0x0000000000002d98       0x44 obj/DD_AB.o
- .debug_frame   0x0000000000002ddc       0xc8 obj/DD_ENCODER.o
- .debug_frame   0x0000000000002ea4       0xf8 obj/DD_Gene.o
- .debug_frame   0x0000000000002f9c       0x4c obj/DD_MD.o
- .debug_frame   0x0000000000002fe8       0xd4 obj/DD_RC.o
- .debug_frame   0x00000000000030bc      0x114 obj/DD_SS.o
- .debug_frame   0x00000000000031d0      0x14c obj/SystemTaskManager.o
- .debug_frame   0x000000000000331c       0xac /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00000000000033c8       0x50 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000000000003418       0x24 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x000000000000343c       0x38 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
- .debug_frame   0x0000000000003474       0x38 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
- .debug_frame   0x00000000000034ac       0x44 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_sqrt.o)
- .debug_frame   0x00000000000034f0       0x48 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
- .debug_frame   0x0000000000003538       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
- .debug_frame   0x0000000000003568       0x4c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
- .debug_frame   0x00000000000035b4       0x58 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
- .debug_frame   0x000000000000360c       0x48 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
- .debug_frame   0x0000000000003654       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
- .debug_frame   0x0000000000003674       0x34 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
- .debug_frame   0x00000000000036a8       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
- .debug_frame   0x00000000000036c8       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
- .debug_frame   0x00000000000036f8       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
- .debug_frame   0x0000000000003718       0xc4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00000000000037dc       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x00000000000037fc       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-errno.o)
- .debug_frame   0x000000000000381c       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000003848       0x28 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-memcpy-stub.o)
+.debug_frame    0x0000000000000000     0x388c
+ .debug_frame   0x0000000000000000      0x104 obj/app.o
+ .debug_frame   0x0000000000000104       0x20 obj/assert.o
+ .debug_frame   0x0000000000000124      0x18c obj/constManager.o
+ .debug_frame   0x00000000000002b0      0x198 obj/msp.o
+ .debug_frame   0x0000000000000448      0x150 obj/stm32f1xx_it.o
+ .debug_frame   0x0000000000000598       0x30 obj/system_stm32f1xx.o
+ .debug_frame   0x00000000000005c8      0x168 obj/stm32f1xx_hal.o
+ .debug_frame   0x0000000000000730      0x144 obj/stm32f1xx_hal_cortex.o
+ .debug_frame   0x0000000000000874      0x124 obj/stm32f1xx_hal_dma.o
+ .debug_frame   0x0000000000000998       0xfc obj/stm32f1xx_hal_gpio.o
+ .debug_frame   0x0000000000000a94      0x750 obj/stm32f1xx_hal_i2c.o
+ .debug_frame   0x00000000000011e4       0x80 obj/stm32f1xx_hal_iwdg.o
+ .debug_frame   0x0000000000001264      0x170 obj/stm32f1xx_hal_rcc.o
+ .debug_frame   0x00000000000013d4       0x6c obj/stm32f1xx_hal_rcc_ex.o
+ .debug_frame   0x0000000000001440      0xa8c obj/stm32f1xx_hal_tim.o
+ .debug_frame   0x0000000000001ecc      0x3c0 obj/stm32f1xx_hal_tim_ex.o
+ .debug_frame   0x000000000000228c      0x3a0 obj/stm32f1xx_hal_uart.o
+ .debug_frame   0x000000000000262c       0x64 obj/MW_ENCODER.o
+ .debug_frame   0x0000000000002690       0xbc obj/MW_GPIO.o
+ .debug_frame   0x000000000000274c       0xec obj/MW_I2C.o
+ .debug_frame   0x0000000000002838       0x78 obj/MW_IWDG.o
+ .debug_frame   0x00000000000028b0      0x164 obj/MW_TIM.o
+ .debug_frame   0x0000000000002a14      0x104 obj/MW_USART.o
+ .debug_frame   0x0000000000002b18       0xfc obj/message.o
+ .debug_frame   0x0000000000002c14      0x1a0 obj/xprintf.o
+ .debug_frame   0x0000000000002db4       0x44 obj/DD_AB.o
+ .debug_frame   0x0000000000002df8       0xc8 obj/DD_ENCODER.o
+ .debug_frame   0x0000000000002ec0       0xf8 obj/DD_Gene.o
+ .debug_frame   0x0000000000002fb8       0x4c obj/DD_MD.o
+ .debug_frame   0x0000000000003004       0xd4 obj/DD_RC.o
+ .debug_frame   0x00000000000030d8      0x114 obj/DD_SS.o
+ .debug_frame   0x00000000000031ec      0x14c obj/SystemTaskManager.o
+ .debug_frame   0x0000000000003338       0xac /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000000033e4       0x50 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000003434       0x24 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000003458       0x38 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_cos.o)
+ .debug_frame   0x0000000000003490       0x38 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_sin.o)
+ .debug_frame   0x00000000000034c8       0x44 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_sqrt.o)
+ .debug_frame   0x000000000000350c       0x48 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_rem_pio2.o)
+ .debug_frame   0x0000000000003554       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
+ .debug_frame   0x0000000000003584       0x4c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_cos.o)
+ .debug_frame   0x00000000000035d0       0x58 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_rem_pio2.o)
+ .debug_frame   0x0000000000003628       0x48 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-k_sin.o)
+ .debug_frame   0x0000000000003670       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x0000000000003690       0x34 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_floor.o)
+ .debug_frame   0x00000000000036c4       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000000000036e4       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x0000000000003714       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_copysign.o)
+ .debug_frame   0x0000000000003734       0xc4 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000000000037f8       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x0000000000003818       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000003838       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000003864       0x28 /usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a(lib_a-memcpy-stub.o)
 
 Cross Reference Table
 
@@ -12257,7 +12264,7 @@ DD_send2LD                                        obj/DD_LD.o
 DD_send2MD                                        obj/DD_MD.o
                                                   obj/DD_Gene.o
 DMA1_Channel1_IRQHandler                          obj/startup.o
-DMA1_Channel2_IRQHandler                          obj/startup.o
+DMA1_Channel2_IRQHandler                          obj/stm32f1xx_it.o
 DMA1_Channel3_IRQHandler                          obj/stm32f1xx_it.o
 DMA1_Channel4_IRQHandler                          obj/stm32f1xx_it.o
 DMA1_Channel5_IRQHandler                          obj/stm32f1xx_it.o

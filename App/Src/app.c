@@ -36,7 +36,9 @@ int32_t absolute_distance(int32_t position[2]);
 static
 int auto_omni_suspension(int x, int y, int w, int max_duty);
 static
-MovingSituation_t go_to_target(int32_t target_position[3], int32_t now_position[3]);
+int32_t go_to_target(int32_t target_position[3], int32_t now_position[3], bool not_stop);
+static
+Arm_MovingSituation_t arm_spin_to_target(Arm_MovingTarget_t target, bool reset);
 static
 int odmetry_position(int32_t position[3], bool adjust_flag[3], int32_t adjust_value[3], bool reset);
 static
@@ -75,9 +77,9 @@ int appTask(void){
 	static bool circle_flag = false, cross_flag = false;
 	static int target_duty=0,duty;
 
-	int adjust[3] = {};
+	int32_t adjust[3] = {};
 	bool adjust_flag[3] = {false, false, false};
-	int32_t now_position[3] = {};
+	static int32_t now_position[3] = {};
 	int32_t target_position[3] = {};
 
 	if(!__RC_ISPRESSED_CIRCLE(g_rc_data)) circle_flag = true;
@@ -118,11 +120,34 @@ int appTask(void){
 	}
 	if(__RC_ISPRESSED_L1(g_rc_data)){
 		target_position[0] = 0;
-		target_position[1] = 0;
+		target_position[1] = 500;
 		target_position[2] = 0;
 	}
 
-	go_to_target(target_position,now_position);
+	go_to_target(target_position,now_position,false);
+
+	if(__RC_ISPRESSED_R1(g_rc_data)){
+		g_md_h[ARM_SPIN_MD].mode = D_MMOD_BACKWARD;
+		g_md_h[ARM_SPIN_MD].duty = ARM_SPIN_MAX_DUTY;
+	}else if(__RC_ISPRESSED_R2(g_rc_data)){
+		g_md_h[ARM_SPIN_MD].mode = D_MMOD_FORWARD;
+		g_md_h[ARM_SPIN_MD].duty = ARM_SPIN_MAX_DUTY;
+	}else{
+		g_md_h[ARM_SPIN_MD].mode = D_MMOD_BRAKE;
+	}
+
+	if(__RC_ISPRESSED_L2(g_rc_data)){
+		adjust_flag[0] = true;
+		adjust_flag[1] = true;
+		adjust_flag[2] = true;
+		adjust[0] = 0;
+		adjust[1] = 0;
+		adjust[2] = 0;
+		odmetry_position(now_position, adjust_flag, adjust, false);
+		adjust_flag[0] = false;
+		adjust_flag[1] = false;
+		adjust_flag[2] = false;
+	}
 
 	//manual_omni_suspension();
 	//duty_check();
@@ -163,8 +188,8 @@ int appTask(void){
 }
 
 static
-MovingSituation_t go_to_target(int32_t target_position[3], int32_t now_position[3]){
-	MovingSituation_t return_situation;
+int32_t go_to_target(int32_t target_position[3], int32_t now_position[3], bool not_stop){
+	//MovingSituation_t return_situation;
 	static int32_t re_now_position[2] = {};
 	int32_t distance;
 	int input_duty[3] = {};
@@ -221,10 +246,14 @@ MovingSituation_t go_to_target(int32_t target_position[3], int32_t now_position[
 	input_duty[2] *= turn_destination_coeff;
 
 	distance = absolute_distance(re_now_position); //距離を計算(常に正)
-	if(distance >= DUTY_MAX_DISTANCE){
+	if(not_stop){
 		input_max_duty_cal[0] = DUTY_MAX_VALUE;
 	}else{
-		input_max_duty_cal[0] = STRAIGHT_DUTY_GET(distance);
+		if(distance >= DUTY_MAX_DISTANCE){
+			input_max_duty_cal[0] = DUTY_MAX_VALUE;
+		}else{
+			input_max_duty_cal[0] = STRAIGHT_DUTY_GET(distance);
+		}
 	}
 	input_max_duty_cal[1] = abs(input_duty[2])*INPUT_MAX_DUTY_COMPARE_COEFF;
 
@@ -256,12 +285,29 @@ MovingSituation_t go_to_target(int32_t target_position[3], int32_t now_position[
 
 	auto_omni_suspension(input_duty[0],input_duty[1],input_duty[2],input_max_duty);
 
-	return return_situation;
+	return distance;
 }
 
 static
 int32_t absolute_distance(int32_t position[2]){
 	return (int)(sqrt(position[0]*position[0]+position[1]*position[1]));
+}
+
+static
+Arm_MovingSituation_t arm_spin_to_target(Arm_MovingTarget_t target, bool reset){
+	const target_to_degree[6] = {FALL_MECHA_ENC,NEAR_ROBOT_ENC,UNE_150_ENC,UNE_200_ENC,UNE_250_ENC,NEAR_UNE_ENC};
+	Arm_MovingSituation_t return_situation;
+	int32_t encoder_val = DD_encoder1Get_int32();
+	static int degree_to_target;
+
+
+	if(reset){
+		DD_encoder1reset();
+		return RESET_ARM_FUNC;
+	}
+
+	degree_to_target = encoder_val-target_to_degree[target]; //マイナスなら、右回転
+
 }
 
 static
@@ -283,6 +329,7 @@ static
 int odmetry_position(int32_t position[3], bool adjust_flag[3], int32_t adjust_value[3], bool reset){
 
 	static int32_t adjust[3] = {};
+	bool adjusted = false;
 	int i;
 
 #if DD_NUM_OF_SS
@@ -298,9 +345,6 @@ int odmetry_position(int32_t position[3], bool adjust_flag[3], int32_t adjust_va
     if(( ((0b10000000)&(g_ss_h[I2C_ODMETRY].data[1]))>>7 ) == 1){
       position[2] *= -1;
     }
-	for(i=0;i<3;i++){
-		position[i] -= adjust[i];
-	}
 #endif
 
 	if(reset){
@@ -313,9 +357,16 @@ int odmetry_position(int32_t position[3], bool adjust_flag[3], int32_t adjust_va
 
 	for(i=0; i<3; i++){
 		if(adjust_flag[i]){
-			position[i] = adjust_value[i];
 			adjust[i] = position[i] - adjust_value[i];
+			position[i] = adjust_value[i];
+			adjusted = true;
 		}
+	}
+	for(i=0;i<3;i++){
+		position[i] -= adjust[i];
+	}
+	if(adjusted){
+		return 0;
 	}
 
 	if( g_SY_system_counter % _MESSAGE_INTERVAL_MS < _INTERVAL_MS ){

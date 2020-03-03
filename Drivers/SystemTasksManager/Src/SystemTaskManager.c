@@ -29,7 +29,8 @@ static volatile unsigned int count_for_rc = 0;
 
 volatile uint8_t raspi_control_rcv[8] = {0,0,0,0,0,0,0,0};
 static uint8_t raspi_control_rcv_data[8] = {0,0,0,0,0,0,0,0};
-static int raspi_control_wait_count = 0;
+static bool raspi_control_flag = true;
+
 
 static
 int SY_init(void);
@@ -83,17 +84,17 @@ int main(void){
     //もしメッセージを出すタイミングであれば
     if( g_SY_system_counter % _MESSAGE_INTERVAL_MS < _INTERVAL_MS ){
 #if USE_RASPI_CONTROL
-      raspi_control_wait_count++;
-      if(raspi_control_wait_count >= 2){
-	      MW_USART3ReceiveMult(8, raspi_control_rcv_data);
-	      for(int i=0;i<4;i++){
-	        MW_printf("[%6d]",raspi_control_rcv_data[i*2]+raspi_control_rcv_data[i*2+1]*256);
-	      }
-	      for(int i=0;i<8;i++){
-	        raspi_control_rcv[i] = raspi_control_rcv_data[i];
-	      }
-	      raspi_control_wait_count = 0;
+      if(raspi_control_flag){
+        MW_USART3ReceiveMult(8, raspi_control_rcv_data);
+        raspi_control_flag = false;
       }
+	    for(int i=0;i<8;i++){
+	      MW_printf("[%3d]",raspi_control_rcv_data[i]);
+	    }
+      MW_printf("\n");
+	    for(int i=0;i<8;i++){
+	      raspi_control_rcv[i] = raspi_control_rcv_data[i];
+	    }
 #endif
       if( g_SY_system_counter % 1000 == 0){
 	      MW_printf("\033[2J");
@@ -353,6 +354,9 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *UartHandle){
 #if DD_USE_RC
   if(DD_RCTask(rc_rcv, (uint8_t*)g_rc_data)!=0)message("err","rc err");
   count_for_rc = 0;
+#endif
+#if USE_RASPI_CONTROL
+  raspi_control_flag = true;
 #endif
 }
 
