@@ -34,7 +34,12 @@ obj/message.o: Drivers/middleLayers/message/Src/message.c \
  /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/middleLayers/message/Inc/message.h \
  /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/SystemTasksManager/Inc/SystemTaskManager.h \
- /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/RC/Inc/DD_RC.h
+ /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/RC/Inc/DD_RC.h \
+ /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/App/Inc/app.h \
+ /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/LD/Inc/DD_LD.h \
+ /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/MD/Inc/DD_MD.h \
+ /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/SV/Inc/DD_SV.h \
+ /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/SS/Inc/DD_SS.h
 
 /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/middleLayers/message/Inc/xprintf.h:
 
@@ -107,3 +112,13 @@ obj/message.o: Drivers/middleLayers/message/Src/message.c \
 /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/SystemTasksManager/Inc/SystemTaskManager.h:
 
 /Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/RC/Inc/DD_RC.h:
+
+/Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/App/Inc/app.h:
+
+/Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/LD/Inc/DD_LD.h:
+
+/Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/MD/Inc/DD_MD.h:
+
+/Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/SV/Inc/DD_SV.h:
+
+/Users/UnknownSP/UnknownSP/stm32f_system_kourobo2020/Drivers/DevDriver/SS/Inc/DD_SS.h:

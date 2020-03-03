@@ -5,6 +5,7 @@
 #include <stdbool.h>
 #include "SystemTaskManager.h"
 #include <stdlib.h>
+#include "app.h"
 
 #define message(type, fmt, ...) _msg(type, __FUNCTION__, __LINE__, fmt, ## __VA_ARGS__)
 
@@ -55,7 +56,11 @@ void flush(void){
   }
   if( outptr != 0 ){
     *outptr++ = '\n';
+#if USE_RASPI_CONTROL
+    MW_USART3Transmit((uint8_t*)buff, outptr - buff);
+#elif DD_USE_RC
     MW_USART2Transmit((uint8_t*)buff, outptr - buff);
+#endif
     had_completed = false;
   }
   outptr = buff;
