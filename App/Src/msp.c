@@ -641,6 +641,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
   else if(huart->Instance==USART2) {
 
     static DMA_HandleTypeDef hdma_tx;
+    static DMA_HandleTypeDef hdma_rx;
     /* USER CODE BEGIN USART2_MspInit 0 */
 
     /* USER CODE END USART2_MspInit 0 */
@@ -684,6 +685,21 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
 
     /* Associate the initialized DMA handle to the UART handle */
     __HAL_LINKDMA(huart, hdmatx, hdma_tx);
+
+    /* Configure the DMA handler for reception process */
+    hdma_rx.Instance                 = DMA1_Channel6;
+    hdma_rx.Init.Direction           = DMA_PERIPH_TO_MEMORY;
+    hdma_rx.Init.PeriphInc           = DMA_PINC_DISABLE;
+    hdma_rx.Init.MemInc              = DMA_MINC_ENABLE;
+    hdma_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
+    hdma_rx.Init.MemDataAlignment    = DMA_MDATAALIGN_BYTE;
+    hdma_rx.Init.Mode                = DMA_NORMAL;
+    hdma_rx.Init.Priority            = DMA_PRIORITY_HIGH;
+
+    HAL_DMA_Init(&hdma_rx);
+
+    /* Associate the initialized DMA handle to the the UART handle */
+    __HAL_LINKDMA(huart, hdmarx, hdma_rx);
 
     /*##-4- Configure the NVIC for DMA #########################################*/
     /* NVIC configuration for DMA transfer complete interrupt (USARTx_TX) */
@@ -751,7 +767,6 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
     hdma_rx.Init.Priority            = DMA_PRIORITY_HIGH;
 
     HAL_DMA_Init(&hdma_rx);
-    
 
     /* Associate the initialized DMA handle to the the UART handle */
     __HAL_LINKDMA(huart, hdmarx, hdma_rx);

@@ -200,7 +200,7 @@ int SY_init(void){
   MW_USARTInit(USART2ID);
 
 #if USE_RASPI_CONTROL
-  MW_USARTSetBaudRate(USART3ID, 9600);
+  MW_USARTSetBaudRate(USART3ID, 115200);
   MW_USARTInit(USART3ID);
 #endif
   /*Initialize printf null transit*/

@@ -36,7 +36,7 @@ UART_HandleTypeDef huart2 = {
 UART_HandleTypeDef huart3 = {
   .Instance = USART3,
   .Init = {
-    .BaudRate = 9600,
+    .BaudRate = 115200,
     .WordLength = UART_WORDLENGTH_8B,
     .StopBits = UART_STOPBITS_1,
     .Parity = UART_PARITY_NONE,
@@ -93,6 +93,14 @@ int32_t MW_USART2Receive(void){
     return -1;
   }
   return (uint32_t)c;
+}
+
+int32_t MW_USART2ReceiveMult(int size, const uint8_t *data){
+  uint8_t c;
+  if( HAL_UART_Receive_DMA(&huart2, (uint8_t*)data, size) != HAL_OK ){
+    return -1;
+  }
+  return 0;
 }
 
 int32_t MW_USART3Transmit(const uint8_t *str, uint16_t datanum){
